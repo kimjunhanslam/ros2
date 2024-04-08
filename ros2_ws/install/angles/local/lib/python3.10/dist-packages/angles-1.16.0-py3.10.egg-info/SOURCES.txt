@@ -1,0 +1,1 @@
+/home/user/ros2_ws/build/angles/ament_cmake_python/angles/angles.egg-info/SOURCES.txt

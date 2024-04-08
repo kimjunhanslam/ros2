@@ -1,0 +1,1 @@
+/home/user/ros2_ws/build/angles/ament_cmake_core/anglesConfig-version.cmake

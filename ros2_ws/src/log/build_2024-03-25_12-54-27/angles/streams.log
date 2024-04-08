@@ -1,0 +1,81 @@
+[0.015s] Invoking command in '/home/user/ros2_ws/src/build/angles': CMAKE_PREFIX_PATH=/home/user/ros2_ws/install/velodyne:/home/user/ros2_ws/install/velodyne_pointcloud:/home/user/ros2_ws/install/velodyne_driver:/home/user/ros2_ws/install/sub:/home/user/ros2_ws/install/gps_pkg:/home/user/ros2_ws/install/a123:/opt/ros/humble:/home/user/ros2_ws/install/velodyne_msgs:/home/user/ros2_ws/install/velodyne_laserscan:/home/user/ros2_ws/install/sub_test:/home/user/ros2_ws/install/diagnostics:/home/user/ros2_ws/install/self_test:/home/user/ros2_ws/install/msg_interfaces:/home/user/ros2_ws/install/diagnostic_common_diagnostics:/home/user/ros2_ws/install/diagnostic_updater:/home/user/ros2_ws/install/diagnostic_aggregator:/home/user/ros2_ws/install/angles /usr/bin/cmake /home/user/ros2_ws/src/angles/angles -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/user/ros2_ws/src/install/angles
+[0.132s] -- The C compiler identification is GNU 11.4.0
+[0.205s] -- The CXX compiler identification is GNU 11.4.0
+[0.212s] -- Detecting C compiler ABI info
+[0.260s] -- Detecting C compiler ABI info - done
+[0.265s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.266s] -- Detecting C compile features
+[0.267s] -- Detecting C compile features - done
+[0.271s] -- Detecting CXX compiler ABI info
+[0.322s] -- Detecting CXX compiler ABI info - done
+[0.327s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.327s] -- Detecting CXX compile features
+[0.327s] -- Detecting CXX compile features - done
+[0.337s] -- Found ament_cmake: 1.3.8 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.446s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.490s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.507s] -- Found ament_cmake_gtest: 1.3.8 (/opt/ros/humble/share/ament_cmake_gtest/cmake)
+[0.510s] -- Found gtest sources under '/opt/ros/humble/src/gtest_vendor': C++ tests using 'Google Test' will be built
+[0.512s] -- Looking for pthread.h
+[0.563s] -- Looking for pthread.h - found
+[0.564s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[0.607s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[0.608s] -- Found Threads: TRUE  
+[0.609s] -- Found ament_cmake_pytest: 1.3.8 (/opt/ros/humble/share/ament_cmake_pytest/cmake)
+[0.918s] -- Configuring done
+[0.923s] -- Generating done
+[0.924s] -- Build files have been written to: /home/user/ros2_ws/src/build/angles
+[0.927s] Invoked command in '/home/user/ros2_ws/src/build/angles' returned '0': CMAKE_PREFIX_PATH=/home/user/ros2_ws/install/velodyne:/home/user/ros2_ws/install/velodyne_pointcloud:/home/user/ros2_ws/install/velodyne_driver:/home/user/ros2_ws/install/sub:/home/user/ros2_ws/install/gps_pkg:/home/user/ros2_ws/install/a123:/opt/ros/humble:/home/user/ros2_ws/install/velodyne_msgs:/home/user/ros2_ws/install/velodyne_laserscan:/home/user/ros2_ws/install/sub_test:/home/user/ros2_ws/install/diagnostics:/home/user/ros2_ws/install/self_test:/home/user/ros2_ws/install/msg_interfaces:/home/user/ros2_ws/install/diagnostic_common_diagnostics:/home/user/ros2_ws/install/diagnostic_updater:/home/user/ros2_ws/install/diagnostic_aggregator:/home/user/ros2_ws/install/angles /usr/bin/cmake /home/user/ros2_ws/src/angles/angles -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/user/ros2_ws/src/install/angles
+[0.929s] Invoking command in '/home/user/ros2_ws/src/build/angles': CMAKE_PREFIX_PATH=/home/user/ros2_ws/install/velodyne:/home/user/ros2_ws/install/velodyne_pointcloud:/home/user/ros2_ws/install/velodyne_driver:/home/user/ros2_ws/install/sub:/home/user/ros2_ws/install/gps_pkg:/home/user/ros2_ws/install/a123:/opt/ros/humble:/home/user/ros2_ws/install/velodyne_msgs:/home/user/ros2_ws/install/velodyne_laserscan:/home/user/ros2_ws/install/sub_test:/home/user/ros2_ws/install/diagnostics:/home/user/ros2_ws/install/self_test:/home/user/ros2_ws/install/msg_interfaces:/home/user/ros2_ws/install/diagnostic_common_diagnostics:/home/user/ros2_ws/install/diagnostic_updater:/home/user/ros2_ws/install/diagnostic_aggregator:/home/user/ros2_ws/install/angles /usr/bin/cmake --build /home/user/ros2_ws/src/build/angles -- -j32 -l32
+[0.955s] [ 16%] [32mBuilding CXX object gtest/CMakeFiles/gtest.dir/src/gtest-all.cc.o[0m
+[0.955s] [ 33%] [32mBuilding CXX object gtest/CMakeFiles/gtest_main.dir/src/gtest_main.cc.o[0m
+[0.960s] [ 33%] Built target ament_cmake_python_symlink_angles
+[1.119s] running egg_info
+[1.120s] creating angles.egg-info
+[1.120s] writing angles.egg-info/PKG-INFO
+[1.120s] writing dependency_links to angles.egg-info/dependency_links.txt
+[1.120s] writing top-level names to angles.egg-info/top_level.txt
+[1.120s] writing manifest file 'angles.egg-info/SOURCES.txt'
+[1.121s] reading manifest file 'angles.egg-info/SOURCES.txt'
+[1.121s] writing manifest file 'angles.egg-info/SOURCES.txt'
+[1.137s] [ 33%] Built target ament_cmake_python_build_angles_egg
+[1.438s] [ 50%] [32m[1mLinking CXX static library libgtest_main.a[0m
+[1.470s] [ 50%] Built target gtest_main
+[3.245s] [ 66%] [32m[1mLinking CXX static library libgtest.a[0m
+[3.280s] [ 66%] Built target gtest
+[3.293s] [ 83%] [32mBuilding CXX object CMakeFiles/angles_utest.dir/test/utest.cpp.o[0m
+[3.851s] [100%] [32m[1mLinking CXX executable angles_utest[0m
+[3.940s] [100%] Built target angles_utest
+[3.949s] Invoked command in '/home/user/ros2_ws/src/build/angles' returned '0': CMAKE_PREFIX_PATH=/home/user/ros2_ws/install/velodyne:/home/user/ros2_ws/install/velodyne_pointcloud:/home/user/ros2_ws/install/velodyne_driver:/home/user/ros2_ws/install/sub:/home/user/ros2_ws/install/gps_pkg:/home/user/ros2_ws/install/a123:/opt/ros/humble:/home/user/ros2_ws/install/velodyne_msgs:/home/user/ros2_ws/install/velodyne_laserscan:/home/user/ros2_ws/install/sub_test:/home/user/ros2_ws/install/diagnostics:/home/user/ros2_ws/install/self_test:/home/user/ros2_ws/install/msg_interfaces:/home/user/ros2_ws/install/diagnostic_common_diagnostics:/home/user/ros2_ws/install/diagnostic_updater:/home/user/ros2_ws/install/diagnostic_aggregator:/home/user/ros2_ws/install/angles /usr/bin/cmake --build /home/user/ros2_ws/src/build/angles -- -j32 -l32
+[3.966s] Invoking command in '/home/user/ros2_ws/src/build/angles': CMAKE_PREFIX_PATH=/home/user/ros2_ws/install/velodyne:/home/user/ros2_ws/install/velodyne_pointcloud:/home/user/ros2_ws/install/velodyne_driver:/home/user/ros2_ws/install/sub:/home/user/ros2_ws/install/gps_pkg:/home/user/ros2_ws/install/a123:/opt/ros/humble:/home/user/ros2_ws/install/velodyne_msgs:/home/user/ros2_ws/install/velodyne_laserscan:/home/user/ros2_ws/install/sub_test:/home/user/ros2_ws/install/diagnostics:/home/user/ros2_ws/install/self_test:/home/user/ros2_ws/install/msg_interfaces:/home/user/ros2_ws/install/diagnostic_common_diagnostics:/home/user/ros2_ws/install/diagnostic_updater:/home/user/ros2_ws/install/diagnostic_aggregator:/home/user/ros2_ws/install/angles /usr/bin/cmake --install /home/user/ros2_ws/src/build/angles
+[3.971s] -- Install configuration: ""
+[3.972s] -- Execute custom install script
+[3.972s] -- Symlinking: /home/user/ros2_ws/src/install/angles/include/angles/angles/angles.h
+[3.977s] -- Symlinking: /home/user/ros2_ws/src/install/angles/share/angles/environment/pythonpath.sh
+[3.983s] -- Symlinking: /home/user/ros2_ws/src/install/angles/share/angles/environment/pythonpath.dsv
+[3.988s] -- Symlinking: /home/user/ros2_ws/src/install/angles/local/lib/python3.10/dist-packages/angles-1.16.0-py3.10.egg-info/PKG-INFO
+[3.993s] -- Symlinking: /home/user/ros2_ws/src/install/angles/local/lib/python3.10/dist-packages/angles-1.16.0-py3.10.egg-info/SOURCES.txt
+[3.997s] -- Symlinking: /home/user/ros2_ws/src/install/angles/local/lib/python3.10/dist-packages/angles-1.16.0-py3.10.egg-info/dependency_links.txt
+[4.003s] -- Symlinking: /home/user/ros2_ws/src/install/angles/local/lib/python3.10/dist-packages/angles-1.16.0-py3.10.egg-info/top_level.txt
+[4.008s] -- Symlinking: /home/user/ros2_ws/src/install/angles/local/lib/python3.10/dist-packages/angles/__init__.py
+[4.014s] -- Symlinking: /home/user/ros2_ws/src/install/angles/share/ament_index/resource_index/package_run_dependencies/angles
+[4.019s] -- Symlinking: /home/user/ros2_ws/src/install/angles/share/ament_index/resource_index/parent_prefix_path/angles
+[4.024s] -- Symlinking: /home/user/ros2_ws/src/install/angles/share/angles/environment/ament_prefix_path.sh
+[4.030s] -- Symlinking: /home/user/ros2_ws/src/install/angles/share/angles/environment/ament_prefix_path.dsv
+[4.036s] -- Symlinking: /home/user/ros2_ws/src/install/angles/share/angles/environment/path.sh
+[4.041s] -- Symlinking: /home/user/ros2_ws/src/install/angles/share/angles/environment/path.dsv
+[4.046s] -- Symlinking: /home/user/ros2_ws/src/install/angles/share/angles/local_setup.bash
+[4.052s] -- Symlinking: /home/user/ros2_ws/src/install/angles/share/angles/local_setup.sh
+[4.057s] -- Symlinking: /home/user/ros2_ws/src/install/angles/share/angles/local_setup.zsh
+[4.063s] -- Symlinking: /home/user/ros2_ws/src/install/angles/share/angles/local_setup.dsv
+[4.068s] -- Symlinking: /home/user/ros2_ws/src/install/angles/share/angles/package.dsv
+[4.073s] -- Symlinking: /home/user/ros2_ws/src/install/angles/share/ament_index/resource_index/packages/angles
+[4.079s] -- Symlinking: /home/user/ros2_ws/src/install/angles/share/angles/cmake/ament_cmake_export_include_directories-extras.cmake
+[4.084s] -- Symlinking: /home/user/ros2_ws/src/install/angles/share/angles/cmake/ament_cmake_export_targets-extras.cmake
+[4.089s] -- Symlinking: /home/user/ros2_ws/src/install/angles/share/angles/cmake/anglesConfig.cmake
+[4.094s] -- Symlinking: /home/user/ros2_ws/src/install/angles/share/angles/cmake/anglesConfig-version.cmake
+[4.099s] -- Symlinking: /home/user/ros2_ws/src/install/angles/share/angles/package.xml
+[4.130s] Listing '/home/user/ros2_ws/src/install/angles/local/lib/python3.10/dist-packages/angles'...
+[4.130s] Compiling '/home/user/ros2_ws/src/install/angles/local/lib/python3.10/dist-packages/angles/__init__.py'...
+[4.135s] -- Installing: /home/user/ros2_ws/src/install/angles/share/angles/cmake/export_anglesExport.cmake
+[4.137s] Invoked command in '/home/user/ros2_ws/src/build/angles' returned '0': CMAKE_PREFIX_PATH=/home/user/ros2_ws/install/velodyne:/home/user/ros2_ws/install/velodyne_pointcloud:/home/user/ros2_ws/install/velodyne_driver:/home/user/ros2_ws/install/sub:/home/user/ros2_ws/install/gps_pkg:/home/user/ros2_ws/install/a123:/opt/ros/humble:/home/user/ros2_ws/install/velodyne_msgs:/home/user/ros2_ws/install/velodyne_laserscan:/home/user/ros2_ws/install/sub_test:/home/user/ros2_ws/install/diagnostics:/home/user/ros2_ws/install/self_test:/home/user/ros2_ws/install/msg_interfaces:/home/user/ros2_ws/install/diagnostic_common_diagnostics:/home/user/ros2_ws/install/diagnostic_updater:/home/user/ros2_ws/install/diagnostic_aggregator:/home/user/ros2_ws/install/angles /usr/bin/cmake --install /home/user/ros2_ws/src/build/angles

@@ -1,0 +1,1 @@
+/home/user/ros2_ws/src/diagnostics/diagnostic_updater/include/diagnostic_updater/update_functions.hpp

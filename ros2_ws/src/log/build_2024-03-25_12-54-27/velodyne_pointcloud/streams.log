@@ -1,0 +1,145 @@
+[0.013s] Invoking command in '/home/user/ros2_ws/src/build/velodyne_pointcloud': AMENT_PREFIX_PATH=/home/user/ros2_ws/src/install/velodyne_msgs:/home/user/ros2_ws/src/install/diagnostic_updater:/home/user/ros2_ws/src/install/angles:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/user/ros2_ws/src/install/velodyne_msgs:/home/user/ros2_ws/src/install/diagnostic_updater:/home/user/ros2_ws/src/install/angles:/home/user/ros2_ws/install/velodyne:/home/user/ros2_ws/install/velodyne_pointcloud:/home/user/ros2_ws/install/velodyne_driver:/home/user/ros2_ws/install/sub:/home/user/ros2_ws/install/gps_pkg:/home/user/ros2_ws/install/a123:/opt/ros/humble:/home/user/ros2_ws/install/velodyne_msgs:/home/user/ros2_ws/install/velodyne_laserscan:/home/user/ros2_ws/install/sub_test:/home/user/ros2_ws/install/diagnostics:/home/user/ros2_ws/install/self_test:/home/user/ros2_ws/install/msg_interfaces:/home/user/ros2_ws/install/diagnostic_common_diagnostics:/home/user/ros2_ws/install/diagnostic_updater:/home/user/ros2_ws/install/diagnostic_aggregator:/home/user/ros2_ws/install/angles LD_LIBRARY_PATH=/home/user/ros2_ws/src/install/velodyne_msgs/lib:/home/user/ros2_ws/src/install/diagnostic_updater/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/user/ros2_ws/src/install/velodyne_msgs/local/lib/python3.10/dist-packages:/home/user/ros2_ws/src/install/diagnostic_updater/local/lib/python3.10/dist-packages:/home/user/ros2_ws/src/install/angles/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/user/ros2_ws/src/velodyne/velodyne_pointcloud -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/user/ros2_ws/src/install/velodyne_pointcloud
+[0.047s] -- The C compiler identification is GNU 11.4.0
+[0.083s] -- The CXX compiler identification is GNU 11.4.0
+[0.088s] -- Detecting C compiler ABI info
+[0.130s] -- Detecting C compiler ABI info - done
+[0.134s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.134s] -- Detecting C compile features
+[0.135s] -- Detecting C compile features - done
+[0.137s] -- Detecting CXX compiler ABI info
+[0.182s] -- Detecting CXX compiler ABI info - done
+[0.189s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.189s] -- Detecting CXX compile features
+[0.189s] -- Detecting CXX compile features - done
+[0.191s] -- Found ament_cmake: 1.3.8 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.299s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.343s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.360s] -- Found angles: 1.16.0 (/home/user/ros2_ws/src/install/angles/share/angles/cmake)
+[0.361s] -- Found diagnostic_updater: 3.1.2 (/home/user/ros2_ws/src/install/diagnostic_updater/share/diagnostic_updater/cmake)
+[0.388s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.392s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.397s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.406s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.420s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.542s] -- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.544s] -- Found rmw_fastrtps_cpp: 6.2.6 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.603s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[0.621s] -- Found FastRTPS: /opt/ros/humble/include  
+[0.652s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.659s] -- Looking for pthread.h
+[0.700s] -- Looking for pthread.h - found
+[0.700s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[0.743s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[0.744s] -- Found Threads: TRUE  
+[0.857s] -- Found geometry_msgs: 4.2.3 (/opt/ros/humble/share/geometry_msgs/cmake)
+[0.887s] -- Found message_filters: 4.3.3 (/opt/ros/humble/share/message_filters/cmake)
+[0.904s] -- Checking for module 'eigen3'
+[0.912s] --   Found eigen3, version 3.4.0
+[0.935s] -- Found Eigen: /usr/include/eigen3 (Required is at least version "3.1") 
+[0.935s] -- Eigen found (include: /usr/include/eigen3, version: 3.4.0)
+[0.954s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found suitable version "1.74.0", minimum required is "1.65.0") found components: system filesystem date_time iostreams serialization 
+[0.955s] -- looking for PCL_COMMON
+[0.958s] -- Found PCL_COMMON: /usr/lib/x86_64-linux-gnu/libpcl_common.so  
+[0.958s] -- Found PCL: pcl_common;Boost::system;Boost::filesystem;Boost::date_time;Boost::iostreams;Boost::serialization  
+[0.960s] -- Found rclcpp_components: 16.0.8 (/opt/ros/humble/share/rclcpp_components/cmake)
+[1.012s] -- Found sensor_msgs: 4.2.3 (/opt/ros/humble/share/sensor_msgs/cmake)
+[1.075s] -- Found tf2: 0.25.6 (/opt/ros/humble/share/tf2/cmake)
+[1.082s] -- Found tf2_ros: 0.25.6 (/opt/ros/humble/share/tf2_ros/cmake)
+[1.263s] -- Found velodyne_msgs: 2.4.0 (/home/user/ros2_ws/src/install/velodyne_msgs/share/velodyne_msgs/cmake)
+[1.301s] -- Found PkgConfig: /usr/bin/pkg-config (found version "0.29.2") 
+[1.302s] -- Checking for module 'yaml-cpp'
+[1.312s] --   Found yaml-cpp, version 0.7.0
+[1.353s] -- Found ament_lint_auto: 0.12.10 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[1.425s] -- Found gtest sources under '/opt/ros/humble/src/gtest_vendor': C++ tests using 'Google Test' will be built
+[1.434s] -- Added test 'copyright' to check source files copyright and LICENSE
+[1.435s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[1.435s] -- Configured cppcheck include dirs: /home/user/ros2_ws/src/velodyne/velodyne_pointcloud/include
+[1.435s] -- Configured cppcheck exclude dirs and/or files: 
+[1.437s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[1.437s] -- Configured cpplint exclude dirs and/or files: 
+[1.437s] -- Added test 'flake8' to check Python code syntax and style conventions
+[1.438s] -- Added test 'lint_cmake' to check CMake code style
+[1.438s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[1.440s] -- Added test 'uncrustify' to check C / C++ code style
+[1.440s] -- Configured uncrustify additional arguments: 
+[1.441s] -- Configuring done
+[1.467s] -- Generating done
+[1.469s] -- Build files have been written to: /home/user/ros2_ws/src/build/velodyne_pointcloud
+[1.477s] Invoked command in '/home/user/ros2_ws/src/build/velodyne_pointcloud' returned '0': AMENT_PREFIX_PATH=/home/user/ros2_ws/src/install/velodyne_msgs:/home/user/ros2_ws/src/install/diagnostic_updater:/home/user/ros2_ws/src/install/angles:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/user/ros2_ws/src/install/velodyne_msgs:/home/user/ros2_ws/src/install/diagnostic_updater:/home/user/ros2_ws/src/install/angles:/home/user/ros2_ws/install/velodyne:/home/user/ros2_ws/install/velodyne_pointcloud:/home/user/ros2_ws/install/velodyne_driver:/home/user/ros2_ws/install/sub:/home/user/ros2_ws/install/gps_pkg:/home/user/ros2_ws/install/a123:/opt/ros/humble:/home/user/ros2_ws/install/velodyne_msgs:/home/user/ros2_ws/install/velodyne_laserscan:/home/user/ros2_ws/install/sub_test:/home/user/ros2_ws/install/diagnostics:/home/user/ros2_ws/install/self_test:/home/user/ros2_ws/install/msg_interfaces:/home/user/ros2_ws/install/diagnostic_common_diagnostics:/home/user/ros2_ws/install/diagnostic_updater:/home/user/ros2_ws/install/diagnostic_aggregator:/home/user/ros2_ws/install/angles LD_LIBRARY_PATH=/home/user/ros2_ws/src/install/velodyne_msgs/lib:/home/user/ros2_ws/src/install/diagnostic_updater/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/user/ros2_ws/src/install/velodyne_msgs/local/lib/python3.10/dist-packages:/home/user/ros2_ws/src/install/diagnostic_updater/local/lib/python3.10/dist-packages:/home/user/ros2_ws/src/install/angles/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/user/ros2_ws/src/velodyne/velodyne_pointcloud -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/user/ros2_ws/src/install/velodyne_pointcloud
+[1.479s] Invoking command in '/home/user/ros2_ws/src/build/velodyne_pointcloud': AMENT_PREFIX_PATH=/home/user/ros2_ws/src/install/velodyne_msgs:/home/user/ros2_ws/src/install/diagnostic_updater:/home/user/ros2_ws/src/install/angles:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/user/ros2_ws/src/install/velodyne_msgs:/home/user/ros2_ws/src/install/diagnostic_updater:/home/user/ros2_ws/src/install/angles:/home/user/ros2_ws/install/velodyne:/home/user/ros2_ws/install/velodyne_pointcloud:/home/user/ros2_ws/install/velodyne_driver:/home/user/ros2_ws/install/sub:/home/user/ros2_ws/install/gps_pkg:/home/user/ros2_ws/install/a123:/opt/ros/humble:/home/user/ros2_ws/install/velodyne_msgs:/home/user/ros2_ws/install/velodyne_laserscan:/home/user/ros2_ws/install/sub_test:/home/user/ros2_ws/install/diagnostics:/home/user/ros2_ws/install/self_test:/home/user/ros2_ws/install/msg_interfaces:/home/user/ros2_ws/install/diagnostic_common_diagnostics:/home/user/ros2_ws/install/diagnostic_updater:/home/user/ros2_ws/install/diagnostic_aggregator:/home/user/ros2_ws/install/angles LD_LIBRARY_PATH=/home/user/ros2_ws/src/install/velodyne_msgs/lib:/home/user/ros2_ws/src/install/diagnostic_updater/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/user/ros2_ws/src/install/velodyne_msgs/local/lib/python3.10/dist-packages:/home/user/ros2_ws/src/install/diagnostic_updater/local/lib/python3.10/dist-packages:/home/user/ros2_ws/src/install/angles/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/user/ros2_ws/src/build/velodyne_pointcloud -- -j32 -l32
+[1.512s] [  5%] [32mBuilding CXX object src/lib/CMakeFiles/velodyne_rawdata.dir/rawdata.cpp.o[0m
+[1.512s] [ 11%] [32mBuilding CXX object src/lib/CMakeFiles/velodyne_rawdata.dir/calibration.cpp.o[0m
+[1.514s] [ 16%] [32mBuilding CXX object src/lib/CMakeFiles/velodyne_cloud_types.dir/pointcloudXYZIRT.cpp.o[0m
+[1.514s] [ 22%] [32mBuilding CXX object src/lib/CMakeFiles/velodyne_cloud_types.dir/organized_cloudXYZIRT.cpp.o[0m
+[1.518s] [ 33%] [32mBuilding CXX object gtest/CMakeFiles/gtest_main.dir/src/gtest_main.cc.o[0m
+[1.518s] [ 33%] [32mBuilding CXX object gtest/CMakeFiles/gtest.dir/src/gtest-all.cc.o[0m
+[1.921s] [ 38%] [32m[1mLinking CXX static library libgtest_main.a[0m
+[1.943s] [ 38%] Built target gtest_main
+[3.660s] [ 44%] [32m[1mLinking CXX static library libgtest.a[0m
+[3.703s] [ 44%] Built target gtest
+[3.722s] [ 50%] [32mBuilding CXX object tests/CMakeFiles/test_row_step.dir/test_row_step.cpp.o[0m
+[5.358s] [ 55%] [32m[1mLinking CXX shared library libvelodyne_rawdata.so[0m
+[5.543s] [ 55%] Built target velodyne_rawdata
+[5.573s] [ 61%] [32mBuilding CXX object tests/CMakeFiles/test_calibration.dir/test_calibration.cpp.o[0m
+[6.253s] [ 66%] [32m[1mLinking CXX shared library libvelodyne_cloud_types.so[0m
+[6.338s] [ 66%] Built target velodyne_cloud_types
+[6.351s] [ 72%] [32mBuilding CXX object CMakeFiles/transform.dir/src/conversions/transform.cpp.o[0m
+[6.375s] [ 77%] [32m[1mLinking CXX executable test_calibration[0m
+[6.506s] [ 77%] Built target test_calibration
+[7.304s] [ 83%] [32m[1mLinking CXX executable test_row_step[0m
+[7.444s] [ 83%] Built target test_row_step
+[13.453s] [ 88%] [32m[1mLinking CXX shared library libtransform.so[0m
+[13.805s] [ 88%] Built target transform
+[13.818s] [ 94%] [32mBuilding CXX object CMakeFiles/velodyne_transform_node.dir/src/conversions/transform_node.cpp.o[0m
+[16.967s] [100%] [32m[1mLinking CXX executable velodyne_transform_node[0m
+[17.157s] [100%] Built target velodyne_transform_node
+[17.169s] Invoked command in '/home/user/ros2_ws/src/build/velodyne_pointcloud' returned '0': AMENT_PREFIX_PATH=/home/user/ros2_ws/src/install/velodyne_msgs:/home/user/ros2_ws/src/install/diagnostic_updater:/home/user/ros2_ws/src/install/angles:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/user/ros2_ws/src/install/velodyne_msgs:/home/user/ros2_ws/src/install/diagnostic_updater:/home/user/ros2_ws/src/install/angles:/home/user/ros2_ws/install/velodyne:/home/user/ros2_ws/install/velodyne_pointcloud:/home/user/ros2_ws/install/velodyne_driver:/home/user/ros2_ws/install/sub:/home/user/ros2_ws/install/gps_pkg:/home/user/ros2_ws/install/a123:/opt/ros/humble:/home/user/ros2_ws/install/velodyne_msgs:/home/user/ros2_ws/install/velodyne_laserscan:/home/user/ros2_ws/install/sub_test:/home/user/ros2_ws/install/diagnostics:/home/user/ros2_ws/install/self_test:/home/user/ros2_ws/install/msg_interfaces:/home/user/ros2_ws/install/diagnostic_common_diagnostics:/home/user/ros2_ws/install/diagnostic_updater:/home/user/ros2_ws/install/diagnostic_aggregator:/home/user/ros2_ws/install/angles LD_LIBRARY_PATH=/home/user/ros2_ws/src/install/velodyne_msgs/lib:/home/user/ros2_ws/src/install/diagnostic_updater/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/user/ros2_ws/src/install/velodyne_msgs/local/lib/python3.10/dist-packages:/home/user/ros2_ws/src/install/diagnostic_updater/local/lib/python3.10/dist-packages:/home/user/ros2_ws/src/install/angles/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/user/ros2_ws/src/build/velodyne_pointcloud -- -j32 -l32
+[17.198s] Invoking command in '/home/user/ros2_ws/src/build/velodyne_pointcloud': AMENT_PREFIX_PATH=/home/user/ros2_ws/src/install/velodyne_msgs:/home/user/ros2_ws/src/install/diagnostic_updater:/home/user/ros2_ws/src/install/angles:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/user/ros2_ws/src/install/velodyne_msgs:/home/user/ros2_ws/src/install/diagnostic_updater:/home/user/ros2_ws/src/install/angles:/home/user/ros2_ws/install/velodyne:/home/user/ros2_ws/install/velodyne_pointcloud:/home/user/ros2_ws/install/velodyne_driver:/home/user/ros2_ws/install/sub:/home/user/ros2_ws/install/gps_pkg:/home/user/ros2_ws/install/a123:/opt/ros/humble:/home/user/ros2_ws/install/velodyne_msgs:/home/user/ros2_ws/install/velodyne_laserscan:/home/user/ros2_ws/install/sub_test:/home/user/ros2_ws/install/diagnostics:/home/user/ros2_ws/install/self_test:/home/user/ros2_ws/install/msg_interfaces:/home/user/ros2_ws/install/diagnostic_common_diagnostics:/home/user/ros2_ws/install/diagnostic_updater:/home/user/ros2_ws/install/diagnostic_aggregator:/home/user/ros2_ws/install/angles LD_LIBRARY_PATH=/home/user/ros2_ws/src/install/velodyne_msgs/lib:/home/user/ros2_ws/src/install/diagnostic_updater/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/user/ros2_ws/src/install/velodyne_msgs/local/lib/python3.10/dist-packages:/home/user/ros2_ws/src/install/diagnostic_updater/local/lib/python3.10/dist-packages:/home/user/ros2_ws/src/install/angles/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/user/ros2_ws/src/build/velodyne_pointcloud
+[17.203s] -- Install configuration: ""
+[17.204s] -- Execute custom install script
+[17.204s] -- Symlinking: /home/user/ros2_ws/src/install/velodyne_pointcloud/lib/libvelodyne_cloud_types.so
+[17.211s] -- Symlinking: /home/user/ros2_ws/src/install/velodyne_pointcloud/lib/libvelodyne_rawdata.so
+[17.218s] -- Symlinking: /home/user/ros2_ws/src/install/velodyne_pointcloud/lib/libtransform.so
+[17.225s] -- Symlinking: /home/user/ros2_ws/src/install/velodyne_pointcloud/lib/velodyne_pointcloud/velodyne_transform_node
+[17.232s] -- Symlinking: /home/user/ros2_ws/src/install/velodyne_pointcloud/include/velodyne_pointcloud/calibration.hpp
+[17.239s] -- Symlinking: /home/user/ros2_ws/src/install/velodyne_pointcloud/include/velodyne_pointcloud/datacontainerbase.hpp
+[17.245s] -- Symlinking: /home/user/ros2_ws/src/install/velodyne_pointcloud/include/velodyne_pointcloud/organized_cloudXYZIRT.hpp
+[17.252s] -- Symlinking: /home/user/ros2_ws/src/install/velodyne_pointcloud/include/velodyne_pointcloud/pointcloudXYZIRT.hpp
+[17.257s] -- Symlinking: /home/user/ros2_ws/src/install/velodyne_pointcloud/include/velodyne_pointcloud/rawdata.hpp
+[17.261s] -- Symlinking: /home/user/ros2_ws/src/install/velodyne_pointcloud/include/velodyne_pointcloud/transform.hpp
+[17.266s] -- Symlinking: /home/user/ros2_ws/src/install/velodyne_pointcloud/share/velodyne_pointcloud/config/VLP16-velodyne_transform_node-params.yaml
+[17.270s] -- Symlinking: /home/user/ros2_ws/src/install/velodyne_pointcloud/share/velodyne_pointcloud/config/VLP32C-velodyne_transform_node-params.yaml
+[17.274s] -- Symlinking: /home/user/ros2_ws/src/install/velodyne_pointcloud/share/velodyne_pointcloud/config/VLS128-velodyne_transform_node-params.yaml
+[17.281s] -- Symlinking: /home/user/ros2_ws/src/install/velodyne_pointcloud/share/velodyne_pointcloud/launch/velodyne_transform_node-VLP16-composed-launch.py
+[17.287s] -- Symlinking: /home/user/ros2_ws/src/install/velodyne_pointcloud/share/velodyne_pointcloud/launch/velodyne_transform_node-VLP16-launch.py
+[17.292s] -- Symlinking: /home/user/ros2_ws/src/install/velodyne_pointcloud/share/velodyne_pointcloud/launch/velodyne_transform_node-VLP32C-composed-launch.py
+[17.296s] -- Symlinking: /home/user/ros2_ws/src/install/velodyne_pointcloud/share/velodyne_pointcloud/launch/velodyne_transform_node-VLP32C-launch.py
+[17.300s] -- Symlinking: /home/user/ros2_ws/src/install/velodyne_pointcloud/share/velodyne_pointcloud/launch/velodyne_transform_node-VLS128-composed-launch.py
+[17.304s] -- Symlinking: /home/user/ros2_ws/src/install/velodyne_pointcloud/share/velodyne_pointcloud/launch/velodyne_transform_node-VLS128-launch.py
+[17.309s] -- Symlinking: /home/user/ros2_ws/src/install/velodyne_pointcloud/share/velodyne_pointcloud/params/32db.yaml
+[17.313s] -- Symlinking: /home/user/ros2_ws/src/install/velodyne_pointcloud/share/velodyne_pointcloud/params/64e_s2.1-sztaki.yaml
+[17.317s] -- Symlinking: /home/user/ros2_ws/src/install/velodyne_pointcloud/share/velodyne_pointcloud/params/64e_s3-xiesc.yaml
+[17.322s] -- Symlinking: /home/user/ros2_ws/src/install/velodyne_pointcloud/share/velodyne_pointcloud/params/64e_utexas.yaml
+[17.327s] -- Symlinking: /home/user/ros2_ws/src/install/velodyne_pointcloud/share/velodyne_pointcloud/params/VLP16_hires_db.yaml
+[17.331s] -- Symlinking: /home/user/ros2_ws/src/install/velodyne_pointcloud/share/velodyne_pointcloud/params/VLP16db.yaml
+[17.335s] -- Symlinking: /home/user/ros2_ws/src/install/velodyne_pointcloud/share/velodyne_pointcloud/params/VLS128.yaml
+[17.339s] -- Symlinking: /home/user/ros2_ws/src/install/velodyne_pointcloud/share/velodyne_pointcloud/params/VeloView-VLP-32C.yaml
+[17.343s] -- Symlinking: /home/user/ros2_ws/src/install/velodyne_pointcloud/share/velodyne_pointcloud/params/issue_84_float_intensities.yaml
+[17.347s] -- Symlinking: /home/user/ros2_ws/src/install/velodyne_pointcloud/share/velodyne_pointcloud/params/rviz_points.vcg
+[17.352s] -- Symlinking: /home/user/ros2_ws/src/install/velodyne_pointcloud/share/ament_index/resource_index/package_run_dependencies/velodyne_pointcloud
+[17.356s] -- Symlinking: /home/user/ros2_ws/src/install/velodyne_pointcloud/share/ament_index/resource_index/parent_prefix_path/velodyne_pointcloud
+[17.360s] -- Symlinking: /home/user/ros2_ws/src/install/velodyne_pointcloud/share/velodyne_pointcloud/environment/ament_prefix_path.sh
+[17.365s] -- Symlinking: /home/user/ros2_ws/src/install/velodyne_pointcloud/share/velodyne_pointcloud/environment/ament_prefix_path.dsv
+[17.370s] -- Symlinking: /home/user/ros2_ws/src/install/velodyne_pointcloud/share/velodyne_pointcloud/environment/path.sh
+[17.374s] -- Symlinking: /home/user/ros2_ws/src/install/velodyne_pointcloud/share/velodyne_pointcloud/environment/path.dsv
+[17.378s] -- Symlinking: /home/user/ros2_ws/src/install/velodyne_pointcloud/share/velodyne_pointcloud/local_setup.bash
+[17.382s] -- Symlinking: /home/user/ros2_ws/src/install/velodyne_pointcloud/share/velodyne_pointcloud/local_setup.sh
+[17.387s] -- Symlinking: /home/user/ros2_ws/src/install/velodyne_pointcloud/share/velodyne_pointcloud/local_setup.zsh
+[17.391s] -- Symlinking: /home/user/ros2_ws/src/install/velodyne_pointcloud/share/velodyne_pointcloud/local_setup.dsv
+[17.396s] -- Symlinking: /home/user/ros2_ws/src/install/velodyne_pointcloud/share/velodyne_pointcloud/package.dsv
+[17.400s] -- Symlinking: /home/user/ros2_ws/src/install/velodyne_pointcloud/share/ament_index/resource_index/packages/velodyne_pointcloud
+[17.404s] -- Symlinking: /home/user/ros2_ws/src/install/velodyne_pointcloud/share/ament_index/resource_index/rclcpp_components/velodyne_pointcloud
+[17.409s] -- Symlinking: /home/user/ros2_ws/src/install/velodyne_pointcloud/share/velodyne_pointcloud/cmake/velodyne_pointcloudConfig.cmake
+[17.413s] -- Symlinking: /home/user/ros2_ws/src/install/velodyne_pointcloud/share/velodyne_pointcloud/cmake/velodyne_pointcloudConfig-version.cmake
+[17.417s] -- Symlinking: /home/user/ros2_ws/src/install/velodyne_pointcloud/share/velodyne_pointcloud/package.xml
+[17.423s] Invoked command in '/home/user/ros2_ws/src/build/velodyne_pointcloud' returned '0': AMENT_PREFIX_PATH=/home/user/ros2_ws/src/install/velodyne_msgs:/home/user/ros2_ws/src/install/diagnostic_updater:/home/user/ros2_ws/src/install/angles:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/user/ros2_ws/src/install/velodyne_msgs:/home/user/ros2_ws/src/install/diagnostic_updater:/home/user/ros2_ws/src/install/angles:/home/user/ros2_ws/install/velodyne:/home/user/ros2_ws/install/velodyne_pointcloud:/home/user/ros2_ws/install/velodyne_driver:/home/user/ros2_ws/install/sub:/home/user/ros2_ws/install/gps_pkg:/home/user/ros2_ws/install/a123:/opt/ros/humble:/home/user/ros2_ws/install/velodyne_msgs:/home/user/ros2_ws/install/velodyne_laserscan:/home/user/ros2_ws/install/sub_test:/home/user/ros2_ws/install/diagnostics:/home/user/ros2_ws/install/self_test:/home/user/ros2_ws/install/msg_interfaces:/home/user/ros2_ws/install/diagnostic_common_diagnostics:/home/user/ros2_ws/install/diagnostic_updater:/home/user/ros2_ws/install/diagnostic_aggregator:/home/user/ros2_ws/install/angles LD_LIBRARY_PATH=/home/user/ros2_ws/src/install/velodyne_msgs/lib:/home/user/ros2_ws/src/install/diagnostic_updater/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/user/ros2_ws/src/install/velodyne_msgs/local/lib/python3.10/dist-packages:/home/user/ros2_ws/src/install/diagnostic_updater/local/lib/python3.10/dist-packages:/home/user/ros2_ws/src/install/angles/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/user/ros2_ws/src/build/velodyne_pointcloud

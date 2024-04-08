@@ -1,0 +1,23 @@
+running develop
+running egg_info
+creating sub.egg-info
+writing sub.egg-info/PKG-INFO
+writing dependency_links to sub.egg-info/dependency_links.txt
+writing entry points to sub.egg-info/entry_points.txt
+writing requirements to sub.egg-info/requires.txt
+writing top-level names to sub.egg-info/top_level.txt
+writing manifest file 'sub.egg-info/SOURCES.txt'
+reading manifest file 'sub.egg-info/SOURCES.txt'
+writing manifest file 'sub.egg-info/SOURCES.txt'
+running build_ext
+Creating /home/user/ros2_ws/src/install/sub/lib/python3.10/site-packages/sub.egg-link (link to .)
+Installing cam script to /home/user/ros2_ws/src/install/sub/lib/sub
+Installing lidar script to /home/user/ros2_ws/src/install/sub/lib/sub
+
+Installed /home/user/ros2_ws/src/build/sub
+running symlink_data
+creating /home/user/ros2_ws/src/install/sub/share/ament_index
+creating /home/user/ros2_ws/src/install/sub/share/ament_index/resource_index
+creating /home/user/ros2_ws/src/install/sub/share/ament_index/resource_index/packages
+symbolically linking /home/user/ros2_ws/src/build/sub/resource/sub -> /home/user/ros2_ws/src/install/sub/share/ament_index/resource_index/packages
+symbolically linking /home/user/ros2_ws/src/build/sub/package.xml -> /home/user/ros2_ws/src/install/sub/share/sub

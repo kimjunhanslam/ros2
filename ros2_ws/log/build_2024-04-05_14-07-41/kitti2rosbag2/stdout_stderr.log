@@ -1,0 +1,24 @@
+running develop
+running egg_info
+creating kitti2rosbag2.egg-info
+writing kitti2rosbag2.egg-info/PKG-INFO
+writing dependency_links to kitti2rosbag2.egg-info/dependency_links.txt
+writing entry points to kitti2rosbag2.egg-info/entry_points.txt
+writing requirements to kitti2rosbag2.egg-info/requires.txt
+writing top-level names to kitti2rosbag2.egg-info/top_level.txt
+writing manifest file 'kitti2rosbag2.egg-info/SOURCES.txt'
+reading manifest file 'kitti2rosbag2.egg-info/SOURCES.txt'
+writing manifest file 'kitti2rosbag2.egg-info/SOURCES.txt'
+running build_ext
+Creating /home/user/ros2_ws/install/kitti2rosbag2/lib/python3.10/site-packages/kitti2rosbag2.egg-link (link to .)
+Installing kitti_rec_node script to /home/user/ros2_ws/install/kitti2rosbag2/lib/kitti2rosbag2
+
+Installed /home/user/ros2_ws/build/kitti2rosbag2
+running symlink_data
+creating /home/user/ros2_ws/install/kitti2rosbag2/share/ament_index
+creating /home/user/ros2_ws/install/kitti2rosbag2/share/ament_index/resource_index
+creating /home/user/ros2_ws/install/kitti2rosbag2/share/ament_index/resource_index/packages
+symbolically linking /home/user/ros2_ws/build/kitti2rosbag2/resource/kitti2rosbag2 -> /home/user/ros2_ws/install/kitti2rosbag2/share/ament_index/resource_index/packages
+symbolically linking /home/user/ros2_ws/build/kitti2rosbag2/package.xml -> /home/user/ros2_ws/install/kitti2rosbag2/share/kitti2rosbag2
+symbolically linking /home/user/ros2_ws/build/kitti2rosbag2/launch/kitti2rosbag2.launch.py -> /home/user/ros2_ws/install/kitti2rosbag2/share/kitti2rosbag2
+symbolically linking /home/user/ros2_ws/build/kitti2rosbag2/config/params.yaml -> /home/user/ros2_ws/install/kitti2rosbag2/share/kitti2rosbag2

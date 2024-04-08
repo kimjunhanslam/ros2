@@ -1,0 +1,20 @@
+running egg_info
+writing ../build/kitti2rosbag2/kitti2rosbag2.egg-info/PKG-INFO
+writing dependency_links to ../build/kitti2rosbag2/kitti2rosbag2.egg-info/dependency_links.txt
+writing entry points to ../build/kitti2rosbag2/kitti2rosbag2.egg-info/entry_points.txt
+writing requirements to ../build/kitti2rosbag2/kitti2rosbag2.egg-info/requires.txt
+writing top-level names to ../build/kitti2rosbag2/kitti2rosbag2.egg-info/top_level.txt
+reading manifest file '../build/kitti2rosbag2/kitti2rosbag2.egg-info/SOURCES.txt'
+adding license file 'LICENSE'
+writing manifest file '../build/kitti2rosbag2/kitti2rosbag2.egg-info/SOURCES.txt'
+running build
+running build_py
+running install
+running install_lib
+running install_data
+running install_egg_info
+removing '/home/user/ros2_ws/src/install/kitti2rosbag2/lib/python3.10/site-packages/kitti2rosbag2-1.0.0-py3.10.egg-info' (and everything under it)
+Copying ../build/kitti2rosbag2/kitti2rosbag2.egg-info to /home/user/ros2_ws/src/install/kitti2rosbag2/lib/python3.10/site-packages/kitti2rosbag2-1.0.0-py3.10.egg-info
+running install_scripts
+Installing kitti_rec_node script to /home/user/ros2_ws/src/install/kitti2rosbag2/lib/kitti2rosbag2
+writing list of installed files to '/home/user/ros2_ws/src/build/kitti2rosbag2/install.log'

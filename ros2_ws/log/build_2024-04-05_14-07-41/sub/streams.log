@@ -1,0 +1,34 @@
+[0.645s] Invoking command in '/home/user/ros2_ws/build/sub': PYTHONPATH=/home/user/ros2_ws/build/sub/prefix_override:/home/user/ros2_ws/install/sub/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/user/ros2_ws/build/sub/build --no-deps symlink_data
+[0.831s] running develop
+[0.950s] running egg_info
+[0.950s] creating sub.egg-info
+[0.950s] writing sub.egg-info/PKG-INFO
+[0.952s] writing dependency_links to sub.egg-info/dependency_links.txt
+[0.952s] writing entry points to sub.egg-info/entry_points.txt
+[0.952s] writing requirements to sub.egg-info/requires.txt
+[0.952s] writing top-level names to sub.egg-info/top_level.txt
+[0.952s] writing manifest file 'sub.egg-info/SOURCES.txt'
+[0.952s] reading manifest file 'sub.egg-info/SOURCES.txt'
+[0.952s] writing manifest file 'sub.egg-info/SOURCES.txt'
+[0.971s] running build_ext
+[0.971s] Creating /home/user/ros2_ws/install/sub/lib/python3.10/site-packages/sub.egg-link (link to .)
+[0.972s] Installing PointCloudSubscriber script to /home/user/ros2_ws/install/sub/lib/sub
+[0.972s] Installing cam script to /home/user/ros2_ws/install/sub/lib/sub
+[0.972s] Installing camrviz script to /home/user/ros2_ws/install/sub/lib/sub
+[0.972s] Installing imu script to /home/user/ros2_ws/install/sub/lib/sub
+[0.973s] Installing lat script to /home/user/ros2_ws/install/sub/lib/sub
+[0.973s] Installing lidar script to /home/user/ros2_ws/install/sub/lib/sub
+[0.973s] Installing lidar_clu script to /home/user/ros2_ws/install/sub/lib/sub
+[0.973s] Installing lon script to /home/user/ros2_ws/install/sub/lib/sub
+[0.974s] Installing pcd_sub script to /home/user/ros2_ws/install/sub/lib/sub
+[0.974s] Installing utm script to /home/user/ros2_ws/install/sub/lib/sub
+[0.974s] Installing webcam script to /home/user/ros2_ws/install/sub/lib/sub
+[0.974s] 
+[0.974s] Installed /home/user/ros2_ws/build/sub
+[0.974s] running symlink_data
+[0.974s] creating /home/user/ros2_ws/install/sub/share/ament_index
+[0.974s] creating /home/user/ros2_ws/install/sub/share/ament_index/resource_index
+[0.974s] creating /home/user/ros2_ws/install/sub/share/ament_index/resource_index/packages
+[0.974s] symbolically linking /home/user/ros2_ws/build/sub/resource/sub -> /home/user/ros2_ws/install/sub/share/ament_index/resource_index/packages
+[0.974s] symbolically linking /home/user/ros2_ws/build/sub/package.xml -> /home/user/ros2_ws/install/sub/share/sub
+[1.003s] Invoked command in '/home/user/ros2_ws/build/sub' returned '0': PYTHONPATH=/home/user/ros2_ws/build/sub/prefix_override:/home/user/ros2_ws/install/sub/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/user/ros2_ws/build/sub/build --no-deps symlink_data

@@ -1,0 +1,26 @@
+[0.647s] Invoking command in '/home/user/ros2_ws/build/kitti2rosbag2': PYTHONPATH=/home/user/ros2_ws/build/kitti2rosbag2/prefix_override:/home/user/ros2_ws/install/kitti2rosbag2/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/user/ros2_ws/build/kitti2rosbag2/build --no-deps symlink_data
+[0.834s] running develop
+[0.953s] running egg_info
+[0.954s] creating kitti2rosbag2.egg-info
+[0.954s] writing kitti2rosbag2.egg-info/PKG-INFO
+[0.954s] writing dependency_links to kitti2rosbag2.egg-info/dependency_links.txt
+[0.954s] writing entry points to kitti2rosbag2.egg-info/entry_points.txt
+[0.954s] writing requirements to kitti2rosbag2.egg-info/requires.txt
+[0.955s] writing top-level names to kitti2rosbag2.egg-info/top_level.txt
+[0.955s] writing manifest file 'kitti2rosbag2.egg-info/SOURCES.txt'
+[0.955s] reading manifest file 'kitti2rosbag2.egg-info/SOURCES.txt'
+[0.955s] writing manifest file 'kitti2rosbag2.egg-info/SOURCES.txt'
+[0.974s] running build_ext
+[0.975s] Creating /home/user/ros2_ws/install/kitti2rosbag2/lib/python3.10/site-packages/kitti2rosbag2.egg-link (link to .)
+[0.975s] Installing kitti_rec_node script to /home/user/ros2_ws/install/kitti2rosbag2/lib/kitti2rosbag2
+[0.975s] 
+[0.975s] Installed /home/user/ros2_ws/build/kitti2rosbag2
+[0.976s] running symlink_data
+[0.976s] creating /home/user/ros2_ws/install/kitti2rosbag2/share/ament_index
+[0.976s] creating /home/user/ros2_ws/install/kitti2rosbag2/share/ament_index/resource_index
+[0.976s] creating /home/user/ros2_ws/install/kitti2rosbag2/share/ament_index/resource_index/packages
+[0.976s] symbolically linking /home/user/ros2_ws/build/kitti2rosbag2/resource/kitti2rosbag2 -> /home/user/ros2_ws/install/kitti2rosbag2/share/ament_index/resource_index/packages
+[0.976s] symbolically linking /home/user/ros2_ws/build/kitti2rosbag2/package.xml -> /home/user/ros2_ws/install/kitti2rosbag2/share/kitti2rosbag2
+[0.976s] symbolically linking /home/user/ros2_ws/build/kitti2rosbag2/launch/kitti2rosbag2.launch.py -> /home/user/ros2_ws/install/kitti2rosbag2/share/kitti2rosbag2
+[0.976s] symbolically linking /home/user/ros2_ws/build/kitti2rosbag2/config/params.yaml -> /home/user/ros2_ws/install/kitti2rosbag2/share/kitti2rosbag2
+[0.998s] Invoked command in '/home/user/ros2_ws/build/kitti2rosbag2' returned '0': PYTHONPATH=/home/user/ros2_ws/build/kitti2rosbag2/prefix_override:/home/user/ros2_ws/install/kitti2rosbag2/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/user/ros2_ws/build/kitti2rosbag2/build --no-deps symlink_data

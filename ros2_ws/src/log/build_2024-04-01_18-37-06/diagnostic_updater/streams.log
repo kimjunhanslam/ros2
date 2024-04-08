@@ -1,0 +1,66 @@
+[0.027s] Invoking command in '/home/user/ros2_ws/src/build/diagnostic_updater': CMAKE_PREFIX_PATH=/home/user/ros2_ws/install/sub:/home/user/ros2_ws/install/gps_pkg:/home/user/ros2_ws/install/kitti2rosbag2:/home/user/ros2_ws/install/a123:/opt/ros/humble:${CMAKE_PREFIX_PATH} /usr/bin/cmake --build /home/user/ros2_ws/src/build/diagnostic_updater -- -j32 -l32
+[0.245s] [35m[1mConsolidate compiler generated dependencies of target gtest_main[0m
+[0.245s] [35m[1mConsolidate compiler generated dependencies of target example[0m
+[0.245s] [35m[1mConsolidate compiler generated dependencies of target gtest[0m
+[0.245s] [ 16%] Built target gtest_main
+[0.245s] [ 33%] Built target gtest
+[0.245s] [ 33%] Built target ament_cmake_python_symlink_diagnostic_updater
+[0.245s] [ 50%] Built target example
+[0.245s] [35m[1mConsolidate compiler generated dependencies of target diagnostic_updater_test[0m
+[0.246s] [35m[1mConsolidate compiler generated dependencies of target diagnostic_status_wrapper_test[0m
+[0.246s] [35m[1mConsolidate compiler generated dependencies of target status_msg_test[0m
+[0.246s] [ 66%] Built target diagnostic_updater_test
+[0.246s] [ 83%] Built target diagnostic_status_wrapper_test
+[0.246s] [100%] Built target status_msg_test
+[0.260s] running egg_info
+[0.260s] writing diagnostic_updater.egg-info/PKG-INFO
+[0.260s] writing dependency_links to diagnostic_updater.egg-info/dependency_links.txt
+[0.260s] writing top-level names to diagnostic_updater.egg-info/top_level.txt
+[0.262s] reading manifest file 'diagnostic_updater.egg-info/SOURCES.txt'
+[0.263s] writing manifest file 'diagnostic_updater.egg-info/SOURCES.txt'
+[0.280s] [100%] Built target ament_cmake_python_build_diagnostic_updater_egg
+[0.439s] Invoked command in '/home/user/ros2_ws/src/build/diagnostic_updater' returned '0': CMAKE_PREFIX_PATH=/home/user/ros2_ws/install/sub:/home/user/ros2_ws/install/gps_pkg:/home/user/ros2_ws/install/kitti2rosbag2:/home/user/ros2_ws/install/a123:/opt/ros/humble:${CMAKE_PREFIX_PATH} /usr/bin/cmake --build /home/user/ros2_ws/src/build/diagnostic_updater -- -j32 -l32
+[0.463s] Invoking command in '/home/user/ros2_ws/src/build/diagnostic_updater': CMAKE_PREFIX_PATH=/home/user/ros2_ws/install/sub:/home/user/ros2_ws/install/gps_pkg:/home/user/ros2_ws/install/kitti2rosbag2:/home/user/ros2_ws/install/a123:/opt/ros/humble:${CMAKE_PREFIX_PATH} /usr/bin/cmake --install /home/user/ros2_ws/src/build/diagnostic_updater
+[0.468s] -- Install configuration: ""
+[0.468s] -- Execute custom install script
+[0.473s] -- Up-to-date symlink: /home/user/ros2_ws/src/install/diagnostic_updater/share/diagnostic_updater/environment/pythonpath.sh
+[0.473s] -- Up-to-date symlink: /home/user/ros2_ws/src/install/diagnostic_updater/share/diagnostic_updater/environment/pythonpath.dsv
+[0.473s] -- Up-to-date symlink: /home/user/ros2_ws/src/install/diagnostic_updater/local/lib/python3.10/dist-packages/diagnostic_updater-3.1.2-py3.10.egg-info/PKG-INFO
+[0.474s] -- Up-to-date symlink: /home/user/ros2_ws/src/install/diagnostic_updater/local/lib/python3.10/dist-packages/diagnostic_updater-3.1.2-py3.10.egg-info/SOURCES.txt
+[0.474s] -- Up-to-date symlink: /home/user/ros2_ws/src/install/diagnostic_updater/local/lib/python3.10/dist-packages/diagnostic_updater-3.1.2-py3.10.egg-info/dependency_links.txt
+[0.474s] -- Up-to-date symlink: /home/user/ros2_ws/src/install/diagnostic_updater/local/lib/python3.10/dist-packages/diagnostic_updater-3.1.2-py3.10.egg-info/top_level.txt
+[0.474s] -- Up-to-date symlink: /home/user/ros2_ws/src/install/diagnostic_updater/local/lib/python3.10/dist-packages/diagnostic_updater/__init__.py
+[0.475s] -- Up-to-date symlink: /home/user/ros2_ws/src/install/diagnostic_updater/local/lib/python3.10/dist-packages/diagnostic_updater/_diagnostic_status_wrapper.py
+[0.475s] -- Up-to-date symlink: /home/user/ros2_ws/src/install/diagnostic_updater/local/lib/python3.10/dist-packages/diagnostic_updater/_diagnostic_updater.py
+[0.475s] -- Up-to-date symlink: /home/user/ros2_ws/src/install/diagnostic_updater/local/lib/python3.10/dist-packages/diagnostic_updater/_publisher.py
+[0.475s] -- Up-to-date symlink: /home/user/ros2_ws/src/install/diagnostic_updater/local/lib/python3.10/dist-packages/diagnostic_updater/_update_functions.py
+[0.475s] -- Up-to-date symlink: /home/user/ros2_ws/src/install/diagnostic_updater/local/lib/python3.10/dist-packages/diagnostic_updater/example.py
+[0.475s] -- Up-to-date symlink: /home/user/ros2_ws/src/install/diagnostic_updater/lib/diagnostic_updater/example.py
+[0.475s] -- Up-to-date symlink: /home/user/ros2_ws/src/install/diagnostic_updater/lib/diagnostic_updater/example
+[0.476s] -- Up-to-date symlink: /home/user/ros2_ws/src/install/diagnostic_updater/include/diagnostic_updater/diagnostic_status_wrapper.hpp
+[0.476s] -- Up-to-date symlink: /home/user/ros2_ws/src/install/diagnostic_updater/include/diagnostic_updater/diagnostic_updater.hpp
+[0.477s] -- Up-to-date symlink: /home/user/ros2_ws/src/install/diagnostic_updater/include/diagnostic_updater/publisher.hpp
+[0.477s] -- Up-to-date symlink: /home/user/ros2_ws/src/install/diagnostic_updater/include/diagnostic_updater/update_functions.hpp
+[0.477s] -- Up-to-date symlink: /home/user/ros2_ws/src/install/diagnostic_updater/share/diagnostic_updater/environment/library_path.sh
+[0.478s] -- Up-to-date symlink: /home/user/ros2_ws/src/install/diagnostic_updater/share/diagnostic_updater/environment/library_path.dsv
+[0.479s] -- Up-to-date symlink: /home/user/ros2_ws/src/install/diagnostic_updater/share/ament_index/resource_index/package_run_dependencies/diagnostic_updater
+[0.480s] -- Up-to-date symlink: /home/user/ros2_ws/src/install/diagnostic_updater/share/ament_index/resource_index/parent_prefix_path/diagnostic_updater
+[0.483s] -- Up-to-date symlink: /home/user/ros2_ws/src/install/diagnostic_updater/share/diagnostic_updater/environment/ament_prefix_path.sh
+[0.483s] -- Up-to-date symlink: /home/user/ros2_ws/src/install/diagnostic_updater/share/diagnostic_updater/environment/ament_prefix_path.dsv
+[0.483s] -- Up-to-date symlink: /home/user/ros2_ws/src/install/diagnostic_updater/share/diagnostic_updater/environment/path.sh
+[0.484s] -- Up-to-date symlink: /home/user/ros2_ws/src/install/diagnostic_updater/share/diagnostic_updater/environment/path.dsv
+[0.485s] -- Up-to-date symlink: /home/user/ros2_ws/src/install/diagnostic_updater/share/diagnostic_updater/local_setup.bash
+[0.485s] -- Up-to-date symlink: /home/user/ros2_ws/src/install/diagnostic_updater/share/diagnostic_updater/local_setup.sh
+[0.485s] -- Up-to-date symlink: /home/user/ros2_ws/src/install/diagnostic_updater/share/diagnostic_updater/local_setup.zsh
+[0.486s] -- Up-to-date symlink: /home/user/ros2_ws/src/install/diagnostic_updater/share/diagnostic_updater/local_setup.dsv
+[0.487s] -- Symlinking: /home/user/ros2_ws/src/install/diagnostic_updater/share/diagnostic_updater/package.dsv
+[0.492s] -- Up-to-date symlink: /home/user/ros2_ws/src/install/diagnostic_updater/share/ament_index/resource_index/packages/diagnostic_updater
+[0.492s] -- Up-to-date symlink: /home/user/ros2_ws/src/install/diagnostic_updater/share/diagnostic_updater/cmake/ament_cmake_export_targets-extras.cmake
+[0.492s] -- Up-to-date symlink: /home/user/ros2_ws/src/install/diagnostic_updater/share/diagnostic_updater/cmake/ament_cmake_export_include_directories-extras.cmake
+[0.492s] -- Up-to-date symlink: /home/user/ros2_ws/src/install/diagnostic_updater/share/diagnostic_updater/cmake/ament_cmake_export_dependencies-extras.cmake
+[0.492s] -- Up-to-date symlink: /home/user/ros2_ws/src/install/diagnostic_updater/share/diagnostic_updater/cmake/diagnostic_updaterConfig.cmake
+[0.492s] -- Up-to-date symlink: /home/user/ros2_ws/src/install/diagnostic_updater/share/diagnostic_updater/cmake/diagnostic_updaterConfig-version.cmake
+[0.492s] -- Up-to-date symlink: /home/user/ros2_ws/src/install/diagnostic_updater/share/diagnostic_updater/package.xml
+[0.519s] Listing '/home/user/ros2_ws/src/install/diagnostic_updater/local/lib/python3.10/dist-packages/diagnostic_updater'...
+[0.521s] -- Up-to-date: /home/user/ros2_ws/src/install/diagnostic_updater/share/diagnostic_updater/cmake/diagnostic_updaterTargetsExport.cmake
+[0.526s] Invoked command in '/home/user/ros2_ws/src/build/diagnostic_updater' returned '0': CMAKE_PREFIX_PATH=/home/user/ros2_ws/install/sub:/home/user/ros2_ws/install/gps_pkg:/home/user/ros2_ws/install/kitti2rosbag2:/home/user/ros2_ws/install/a123:/opt/ros/humble:${CMAKE_PREFIX_PATH} /usr/bin/cmake --install /home/user/ros2_ws/src/build/diagnostic_updater

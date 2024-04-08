@@ -1,0 +1,110 @@
+[0.012s] Invoking command in '/home/user/ros2_ws/src/build/velodyne_driver': AMENT_PREFIX_PATH=/home/user/ros2_ws/src/install/velodyne_msgs:/home/user/ros2_ws/src/install/diagnostic_updater:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/user/ros2_ws/src/install/velodyne_msgs:/home/user/ros2_ws/src/install/diagnostic_updater:/home/user/ros2_ws/install/velodyne:/home/user/ros2_ws/install/velodyne_pointcloud:/home/user/ros2_ws/install/velodyne_driver:/home/user/ros2_ws/install/sub:/home/user/ros2_ws/install/gps_pkg:/home/user/ros2_ws/install/a123:/opt/ros/humble:/home/user/ros2_ws/install/velodyne_msgs:/home/user/ros2_ws/install/velodyne_laserscan:/home/user/ros2_ws/install/sub_test:/home/user/ros2_ws/install/diagnostics:/home/user/ros2_ws/install/self_test:/home/user/ros2_ws/install/msg_interfaces:/home/user/ros2_ws/install/diagnostic_common_diagnostics:/home/user/ros2_ws/install/diagnostic_updater:/home/user/ros2_ws/install/diagnostic_aggregator:/home/user/ros2_ws/install/angles LD_LIBRARY_PATH=/home/user/ros2_ws/src/install/velodyne_msgs/lib:/home/user/ros2_ws/src/install/diagnostic_updater/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/user/ros2_ws/src/install/velodyne_msgs/local/lib/python3.10/dist-packages:/home/user/ros2_ws/src/install/diagnostic_updater/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/user/ros2_ws/src/velodyne/velodyne_driver -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/user/ros2_ws/src/install/velodyne_driver
+[0.044s] -- The C compiler identification is GNU 11.4.0
+[0.079s] -- The CXX compiler identification is GNU 11.4.0
+[0.083s] -- Detecting C compiler ABI info
+[0.125s] -- Detecting C compiler ABI info - done
+[0.130s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.130s] -- Detecting C compile features
+[0.130s] -- Detecting C compile features - done
+[0.132s] -- Detecting CXX compiler ABI info
+[0.179s] -- Detecting CXX compiler ABI info - done
+[0.187s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.187s] -- Detecting CXX compile features
+[0.188s] -- Detecting CXX compile features - done
+[0.190s] -- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)
+[0.303s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.347s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.365s] -- Found diagnostic_msgs: 4.2.3 (/opt/ros/humble/share/diagnostic_msgs/cmake)
+[0.390s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.393s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.399s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.408s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.421s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.499s] -- Found diagnostic_updater: 3.1.2 (/home/user/ros2_ws/src/install/diagnostic_updater/share/diagnostic_updater/cmake)
+[0.542s] -- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.544s] -- Found rmw_fastrtps_cpp: 6.2.6 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.603s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[0.620s] -- Found FastRTPS: /opt/ros/humble/include  
+[0.650s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.657s] -- Looking for pthread.h
+[0.699s] -- Looking for pthread.h - found
+[0.699s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[0.742s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[0.743s] -- Found Threads: TRUE  
+[0.841s] -- Found rclcpp_components: 16.0.8 (/opt/ros/humble/share/rclcpp_components/cmake)
+[0.888s] -- Found tf2_ros: 0.25.6 (/opt/ros/humble/share/tf2_ros/cmake)
+[1.119s] -- Found velodyne_msgs: 2.4.0 (/home/user/ros2_ws/src/install/velodyne_msgs/share/velodyne_msgs/cmake)
+[1.159s] -- Found ament_lint_auto: 0.12.10 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[1.226s] -- Found gtest sources under '/opt/ros/humble/src/gtest_vendor': C++ tests using 'Google Test' will be built
+[1.232s] -- Added test 'copyright' to check source files copyright and LICENSE
+[1.244s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[1.244s] -- Configured cppcheck include dirs: /home/user/ros2_ws/src/velodyne/velodyne_driver/include
+[1.244s] -- Configured cppcheck exclude dirs and/or files: 
+[1.245s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[1.245s] -- Configured cpplint exclude dirs and/or files: 
+[1.245s] -- Added test 'flake8' to check Python code syntax and style conventions
+[1.246s] -- Added test 'lint_cmake' to check CMake code style
+[1.246s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[1.248s] -- Added test 'uncrustify' to check C / C++ code style
+[1.248s] -- Configured uncrustify additional arguments: 
+[1.248s] -- Added test 'xmllint' to check XML markup files
+[1.249s] -- Configuring done
+[1.266s] -- Generating done
+[1.267s] -- Build files have been written to: /home/user/ros2_ws/src/build/velodyne_driver
+[1.276s] Invoked command in '/home/user/ros2_ws/src/build/velodyne_driver' returned '0': AMENT_PREFIX_PATH=/home/user/ros2_ws/src/install/velodyne_msgs:/home/user/ros2_ws/src/install/diagnostic_updater:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/user/ros2_ws/src/install/velodyne_msgs:/home/user/ros2_ws/src/install/diagnostic_updater:/home/user/ros2_ws/install/velodyne:/home/user/ros2_ws/install/velodyne_pointcloud:/home/user/ros2_ws/install/velodyne_driver:/home/user/ros2_ws/install/sub:/home/user/ros2_ws/install/gps_pkg:/home/user/ros2_ws/install/a123:/opt/ros/humble:/home/user/ros2_ws/install/velodyne_msgs:/home/user/ros2_ws/install/velodyne_laserscan:/home/user/ros2_ws/install/sub_test:/home/user/ros2_ws/install/diagnostics:/home/user/ros2_ws/install/self_test:/home/user/ros2_ws/install/msg_interfaces:/home/user/ros2_ws/install/diagnostic_common_diagnostics:/home/user/ros2_ws/install/diagnostic_updater:/home/user/ros2_ws/install/diagnostic_aggregator:/home/user/ros2_ws/install/angles LD_LIBRARY_PATH=/home/user/ros2_ws/src/install/velodyne_msgs/lib:/home/user/ros2_ws/src/install/diagnostic_updater/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/user/ros2_ws/src/install/velodyne_msgs/local/lib/python3.10/dist-packages:/home/user/ros2_ws/src/install/diagnostic_updater/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/user/ros2_ws/src/velodyne/velodyne_driver -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/user/ros2_ws/src/install/velodyne_driver
+[1.277s] Invoking command in '/home/user/ros2_ws/src/build/velodyne_driver': AMENT_PREFIX_PATH=/home/user/ros2_ws/src/install/velodyne_msgs:/home/user/ros2_ws/src/install/diagnostic_updater:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/user/ros2_ws/src/install/velodyne_msgs:/home/user/ros2_ws/src/install/diagnostic_updater:/home/user/ros2_ws/install/velodyne:/home/user/ros2_ws/install/velodyne_pointcloud:/home/user/ros2_ws/install/velodyne_driver:/home/user/ros2_ws/install/sub:/home/user/ros2_ws/install/gps_pkg:/home/user/ros2_ws/install/a123:/opt/ros/humble:/home/user/ros2_ws/install/velodyne_msgs:/home/user/ros2_ws/install/velodyne_laserscan:/home/user/ros2_ws/install/sub_test:/home/user/ros2_ws/install/diagnostics:/home/user/ros2_ws/install/self_test:/home/user/ros2_ws/install/msg_interfaces:/home/user/ros2_ws/install/diagnostic_common_diagnostics:/home/user/ros2_ws/install/diagnostic_updater:/home/user/ros2_ws/install/diagnostic_aggregator:/home/user/ros2_ws/install/angles LD_LIBRARY_PATH=/home/user/ros2_ws/src/install/velodyne_msgs/lib:/home/user/ros2_ws/src/install/diagnostic_updater/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/user/ros2_ws/src/install/velodyne_msgs/local/lib/python3.10/dist-packages:/home/user/ros2_ws/src/install/diagnostic_updater/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/user/ros2_ws/src/build/velodyne_driver -- -j32 -l32
+[1.308s] [  8%] [32mBuilding CXX object gtest/CMakeFiles/gtest_main.dir/src/gtest_main.cc.o[0m
+[1.309s] [ 16%] [32mBuilding CXX object src/lib/CMakeFiles/velodyne_input.dir/input.cpp.o[0m
+[1.312s] [ 25%] [32mBuilding CXX object gtest/CMakeFiles/gtest.dir/src/gtest-all.cc.o[0m
+[1.697s] [ 33%] [32m[1mLinking CXX static library libgtest_main.a[0m
+[1.718s] [ 33%] Built target gtest_main
+[3.286s] [ 41%] [32m[1mLinking CXX static library libgtest.a[0m
+[3.299s] [ 50%] [32m[1mLinking CXX shared library libvelodyne_input.so[0m
+[3.326s] [ 50%] Built target gtest
+[3.418s] [ 50%] Built target velodyne_input
+[3.442s] [ 66%] [32mBuilding CXX object CMakeFiles/time_test.dir/tests/timeconversiontest.cpp.o[0m
+[3.442s] [ 66%] [32mBuilding CXX object CMakeFiles/velodyne_driver.dir/src/driver/driver.cpp.o[0m
+[5.699s] [ 75%] [32m[1mLinking CXX executable time_test[0m
+[5.825s] [ 75%] Built target time_test
+[8.170s] [ 83%] [32m[1mLinking CXX shared library libvelodyne_driver.so[0m
+[8.342s] [ 83%] Built target velodyne_driver
+[8.355s] [ 91%] [32mBuilding CXX object CMakeFiles/velodyne_driver_node.dir/src/driver/velodyne_node.cpp.o[0m
+[10.243s] [100%] [32m[1mLinking CXX executable velodyne_driver_node[0m
+[10.380s] [100%] Built target velodyne_driver_node
+[10.387s] Invoked command in '/home/user/ros2_ws/src/build/velodyne_driver' returned '0': AMENT_PREFIX_PATH=/home/user/ros2_ws/src/install/velodyne_msgs:/home/user/ros2_ws/src/install/diagnostic_updater:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/user/ros2_ws/src/install/velodyne_msgs:/home/user/ros2_ws/src/install/diagnostic_updater:/home/user/ros2_ws/install/velodyne:/home/user/ros2_ws/install/velodyne_pointcloud:/home/user/ros2_ws/install/velodyne_driver:/home/user/ros2_ws/install/sub:/home/user/ros2_ws/install/gps_pkg:/home/user/ros2_ws/install/a123:/opt/ros/humble:/home/user/ros2_ws/install/velodyne_msgs:/home/user/ros2_ws/install/velodyne_laserscan:/home/user/ros2_ws/install/sub_test:/home/user/ros2_ws/install/diagnostics:/home/user/ros2_ws/install/self_test:/home/user/ros2_ws/install/msg_interfaces:/home/user/ros2_ws/install/diagnostic_common_diagnostics:/home/user/ros2_ws/install/diagnostic_updater:/home/user/ros2_ws/install/diagnostic_aggregator:/home/user/ros2_ws/install/angles LD_LIBRARY_PATH=/home/user/ros2_ws/src/install/velodyne_msgs/lib:/home/user/ros2_ws/src/install/diagnostic_updater/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/user/ros2_ws/src/install/velodyne_msgs/local/lib/python3.10/dist-packages:/home/user/ros2_ws/src/install/diagnostic_updater/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/user/ros2_ws/src/build/velodyne_driver -- -j32 -l32
+[10.406s] Invoking command in '/home/user/ros2_ws/src/build/velodyne_driver': AMENT_PREFIX_PATH=/home/user/ros2_ws/src/install/velodyne_msgs:/home/user/ros2_ws/src/install/diagnostic_updater:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/user/ros2_ws/src/install/velodyne_msgs:/home/user/ros2_ws/src/install/diagnostic_updater:/home/user/ros2_ws/install/velodyne:/home/user/ros2_ws/install/velodyne_pointcloud:/home/user/ros2_ws/install/velodyne_driver:/home/user/ros2_ws/install/sub:/home/user/ros2_ws/install/gps_pkg:/home/user/ros2_ws/install/a123:/opt/ros/humble:/home/user/ros2_ws/install/velodyne_msgs:/home/user/ros2_ws/install/velodyne_laserscan:/home/user/ros2_ws/install/sub_test:/home/user/ros2_ws/install/diagnostics:/home/user/ros2_ws/install/self_test:/home/user/ros2_ws/install/msg_interfaces:/home/user/ros2_ws/install/diagnostic_common_diagnostics:/home/user/ros2_ws/install/diagnostic_updater:/home/user/ros2_ws/install/diagnostic_aggregator:/home/user/ros2_ws/install/angles LD_LIBRARY_PATH=/home/user/ros2_ws/src/install/velodyne_msgs/lib:/home/user/ros2_ws/src/install/diagnostic_updater/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/user/ros2_ws/src/install/velodyne_msgs/local/lib/python3.10/dist-packages:/home/user/ros2_ws/src/install/diagnostic_updater/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/user/ros2_ws/src/build/velodyne_driver
+[10.410s] -- Install configuration: ""
+[10.410s] -- Execute custom install script
+[10.410s] -- Symlinking: /home/user/ros2_ws/src/install/velodyne_driver/lib/libvelodyne_input.so
+[10.415s] -- Symlinking: /home/user/ros2_ws/src/install/velodyne_driver/lib/libvelodyne_driver.so
+[10.420s] -- Symlinking: /home/user/ros2_ws/src/install/velodyne_driver/lib/velodyne_driver/velodyne_driver_node
+[10.424s] -- Symlinking: /home/user/ros2_ws/src/install/velodyne_driver/include/velodyne_driver/driver.hpp
+[10.428s] -- Symlinking: /home/user/ros2_ws/src/install/velodyne_driver/include/velodyne_driver/input.hpp
+[10.432s] -- Symlinking: /home/user/ros2_ws/src/install/velodyne_driver/include/velodyne_driver/time_conversion.hpp
+[10.436s] -- Symlinking: /home/user/ros2_ws/src/install/velodyne_driver/share/velodyne_driver/config/VLP16-velodyne_driver_node-params.yaml
+[10.441s] -- Symlinking: /home/user/ros2_ws/src/install/velodyne_driver/share/velodyne_driver/config/VLP32C-velodyne_driver_node-params.yaml
+[10.445s] -- Symlinking: /home/user/ros2_ws/src/install/velodyne_driver/share/velodyne_driver/config/VLS128-velodyne_driver_node-params.yaml
+[10.450s] -- Symlinking: /home/user/ros2_ws/src/install/velodyne_driver/share/velodyne_driver/launch/velodyne_driver_node-VLP16-composed-launch.py
+[10.454s] -- Symlinking: /home/user/ros2_ws/src/install/velodyne_driver/share/velodyne_driver/launch/velodyne_driver_node-VLP16-launch.py
+[10.458s] -- Symlinking: /home/user/ros2_ws/src/install/velodyne_driver/share/velodyne_driver/launch/velodyne_driver_node-VLP32C-composed-launch.py
+[10.463s] -- Symlinking: /home/user/ros2_ws/src/install/velodyne_driver/share/velodyne_driver/launch/velodyne_driver_node-VLP32C-launch.py
+[10.467s] -- Symlinking: /home/user/ros2_ws/src/install/velodyne_driver/share/velodyne_driver/launch/velodyne_driver_node-VLS128-composed-launch.py
+[10.471s] -- Symlinking: /home/user/ros2_ws/src/install/velodyne_driver/share/velodyne_driver/launch/velodyne_driver_node-VLS128-launch.py
+[10.476s] -- Symlinking: /home/user/ros2_ws/src/install/velodyne_driver/lib/velodyne_driver/vdump
+[10.480s] -- Symlinking: /home/user/ros2_ws/src/install/velodyne_driver/share/ament_index/resource_index/package_run_dependencies/velodyne_driver
+[10.484s] -- Symlinking: /home/user/ros2_ws/src/install/velodyne_driver/share/ament_index/resource_index/parent_prefix_path/velodyne_driver
+[10.489s] -- Symlinking: /home/user/ros2_ws/src/install/velodyne_driver/share/velodyne_driver/environment/ament_prefix_path.sh
+[10.493s] -- Symlinking: /home/user/ros2_ws/src/install/velodyne_driver/share/velodyne_driver/environment/ament_prefix_path.dsv
+[10.497s] -- Symlinking: /home/user/ros2_ws/src/install/velodyne_driver/share/velodyne_driver/environment/path.sh
+[10.501s] -- Symlinking: /home/user/ros2_ws/src/install/velodyne_driver/share/velodyne_driver/environment/path.dsv
+[10.505s] -- Symlinking: /home/user/ros2_ws/src/install/velodyne_driver/share/velodyne_driver/local_setup.bash
+[10.510s] -- Symlinking: /home/user/ros2_ws/src/install/velodyne_driver/share/velodyne_driver/local_setup.sh
+[10.514s] -- Symlinking: /home/user/ros2_ws/src/install/velodyne_driver/share/velodyne_driver/local_setup.zsh
+[10.518s] -- Symlinking: /home/user/ros2_ws/src/install/velodyne_driver/share/velodyne_driver/local_setup.dsv
+[10.522s] -- Symlinking: /home/user/ros2_ws/src/install/velodyne_driver/share/velodyne_driver/package.dsv
+[10.527s] -- Symlinking: /home/user/ros2_ws/src/install/velodyne_driver/share/ament_index/resource_index/packages/velodyne_driver
+[10.531s] -- Symlinking: /home/user/ros2_ws/src/install/velodyne_driver/share/ament_index/resource_index/rclcpp_components/velodyne_driver
+[10.535s] -- Symlinking: /home/user/ros2_ws/src/install/velodyne_driver/share/velodyne_driver/cmake/velodyne_driverConfig.cmake
+[10.540s] -- Symlinking: /home/user/ros2_ws/src/install/velodyne_driver/share/velodyne_driver/cmake/velodyne_driverConfig-version.cmake
+[10.545s] -- Symlinking: /home/user/ros2_ws/src/install/velodyne_driver/share/velodyne_driver/package.xml
+[10.550s] Invoked command in '/home/user/ros2_ws/src/build/velodyne_driver' returned '0': AMENT_PREFIX_PATH=/home/user/ros2_ws/src/install/velodyne_msgs:/home/user/ros2_ws/src/install/diagnostic_updater:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/user/ros2_ws/src/install/velodyne_msgs:/home/user/ros2_ws/src/install/diagnostic_updater:/home/user/ros2_ws/install/velodyne:/home/user/ros2_ws/install/velodyne_pointcloud:/home/user/ros2_ws/install/velodyne_driver:/home/user/ros2_ws/install/sub:/home/user/ros2_ws/install/gps_pkg:/home/user/ros2_ws/install/a123:/opt/ros/humble:/home/user/ros2_ws/install/velodyne_msgs:/home/user/ros2_ws/install/velodyne_laserscan:/home/user/ros2_ws/install/sub_test:/home/user/ros2_ws/install/diagnostics:/home/user/ros2_ws/install/self_test:/home/user/ros2_ws/install/msg_interfaces:/home/user/ros2_ws/install/diagnostic_common_diagnostics:/home/user/ros2_ws/install/diagnostic_updater:/home/user/ros2_ws/install/diagnostic_aggregator:/home/user/ros2_ws/install/angles LD_LIBRARY_PATH=/home/user/ros2_ws/src/install/velodyne_msgs/lib:/home/user/ros2_ws/src/install/diagnostic_updater/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/user/ros2_ws/src/install/velodyne_msgs/local/lib/python3.10/dist-packages:/home/user/ros2_ws/src/install/diagnostic_updater/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/user/ros2_ws/src/build/velodyne_driver

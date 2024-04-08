@@ -1,0 +1,98 @@
+[0.014s] Invoking command in '/home/user/ros2_ws/build/self_test': CMAKE_PREFIX_PATH=/home/user/ros2_ws/install/diagnostic_updater:/home/user/ros2_ws/install/velodyne:/home/user/ros2_ws/install/velodyne_pointcloud:/home/user/ros2_ws/install/velodyne_driver:/home/user/ros2_ws/install/velodyne_msgs:/home/user/ros2_ws/install/velodyne_laserscan:/home/user/ros2_ws/install/diagnostics:/home/user/ros2_ws/install/self_test:/home/user/ros2_ws/install/diagnostic_common_diagnostics:/home/user/ros2_ws/install/diagnostic_aggregator:/home/user/ros2_ws/install/angles:/home/user/yolo/install/yolov8_bringup:/home/user/yolo/install/yolov8_msgs:/home/user/usb_cam/install/usb_camera_driver:/home/user/ros2_ws/install/sub:/home/user/ros2_ws/install/kitti2rosbag2:/home/user/yolo/install/yolov8_ros:/opt/ros/humble /usr/bin/cmake /home/user/ros2_ws/src/diagnostics/self_test -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/user/ros2_ws/install/self_test
+[0.045s] -- The C compiler identification is GNU 11.4.0
+[0.080s] -- The CXX compiler identification is GNU 11.4.0
+[0.085s] -- Detecting C compiler ABI info
+[0.125s] -- Detecting C compiler ABI info - done
+[0.130s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.130s] -- Detecting C compile features
+[0.130s] -- Detecting C compile features - done
+[0.132s] -- Detecting CXX compiler ABI info
+[0.179s] -- Detecting CXX compiler ABI info - done
+[0.184s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.184s] -- Detecting CXX compile features
+[0.184s] -- Detecting CXX compile features - done
+[0.185s] -- Build for humble
+[0.186s] -- Found ament_cmake: 1.3.8 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.292s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.335s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.353s] -- Found diagnostic_msgs: 4.2.3 (/opt/ros/humble/share/diagnostic_msgs/cmake)
+[0.380s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.383s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.389s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.398s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.411s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.491s] -- Found diagnostic_updater: 3.1.2 (/home/user/ros2_ws/install/diagnostic_updater/share/diagnostic_updater/cmake)
+[0.535s] -- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.538s] -- Found rmw_fastrtps_cpp: 6.2.6 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.601s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[0.622s] -- Found FastRTPS: /opt/ros/humble/include  
+[0.655s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.662s] -- Looking for pthread.h
+[0.703s] -- Looking for pthread.h - found
+[0.704s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[0.749s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[0.750s] -- Found Threads: TRUE  
+[0.855s] -- Found ament_lint_auto: 0.12.10 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[0.913s] -- Found gtest sources under '/opt/ros/humble/src/gtest_vendor': C++ tests using 'Google Test' will be built
+[0.927s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[0.927s] -- Configured cppcheck include dirs: $<BUILD_INTERFACE:/home/user/ros2_ws/src/diagnostics/self_test/include>
+[0.927s] -- Configured cppcheck exclude dirs and/or files: 
+[0.928s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[0.928s] -- Configured cpplint exclude dirs and/or files: 
+[0.928s] -- Added test 'lint_cmake' to check CMake code style
+[0.929s] -- Added test 'uncrustify' to check C / C++ code style
+[0.929s] -- Configured uncrustify additional arguments: 
+[0.929s] -- Added test 'xmllint' to check XML markup files
+[0.931s] -- Configuring done
+[0.946s] -- Generating done
+[0.947s] -- Build files have been written to: /home/user/ros2_ws/build/self_test
+[0.954s] Invoked command in '/home/user/ros2_ws/build/self_test' returned '0': CMAKE_PREFIX_PATH=/home/user/ros2_ws/install/diagnostic_updater:/home/user/ros2_ws/install/velodyne:/home/user/ros2_ws/install/velodyne_pointcloud:/home/user/ros2_ws/install/velodyne_driver:/home/user/ros2_ws/install/velodyne_msgs:/home/user/ros2_ws/install/velodyne_laserscan:/home/user/ros2_ws/install/diagnostics:/home/user/ros2_ws/install/self_test:/home/user/ros2_ws/install/diagnostic_common_diagnostics:/home/user/ros2_ws/install/diagnostic_aggregator:/home/user/ros2_ws/install/angles:/home/user/yolo/install/yolov8_bringup:/home/user/yolo/install/yolov8_msgs:/home/user/usb_cam/install/usb_camera_driver:/home/user/ros2_ws/install/sub:/home/user/ros2_ws/install/kitti2rosbag2:/home/user/yolo/install/yolov8_ros:/opt/ros/humble /usr/bin/cmake /home/user/ros2_ws/src/diagnostics/self_test -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/user/ros2_ws/install/self_test
+[0.955s] Invoking command in '/home/user/ros2_ws/build/self_test': CMAKE_PREFIX_PATH=/home/user/ros2_ws/install/diagnostic_updater:/home/user/ros2_ws/install/velodyne:/home/user/ros2_ws/install/velodyne_pointcloud:/home/user/ros2_ws/install/velodyne_driver:/home/user/ros2_ws/install/velodyne_msgs:/home/user/ros2_ws/install/velodyne_laserscan:/home/user/ros2_ws/install/diagnostics:/home/user/ros2_ws/install/self_test:/home/user/ros2_ws/install/diagnostic_common_diagnostics:/home/user/ros2_ws/install/diagnostic_aggregator:/home/user/ros2_ws/install/angles:/home/user/yolo/install/yolov8_bringup:/home/user/yolo/install/yolov8_msgs:/home/user/usb_cam/install/usb_camera_driver:/home/user/ros2_ws/install/sub:/home/user/ros2_ws/install/kitti2rosbag2:/home/user/yolo/install/yolov8_ros:/opt/ros/humble /usr/bin/cmake --build /home/user/ros2_ws/build/self_test -- -j32 -l32
+[0.983s] [  6%] [32mBuilding CXX object CMakeFiles/selftest_example.dir/example/selftest_example.cpp.o[0m
+[0.983s] [ 18%] [32mBuilding CXX object gtest/CMakeFiles/gtest_main.dir/src/gtest_main.cc.o[0m
+[0.983s] [ 25%] [32mBuilding CXX object gtest/CMakeFiles/gtest.dir/src/gtest-all.cc.o[0m
+[0.984s] [ 25%] [32mBuilding CXX object CMakeFiles/run_selftest.dir/src/run_selftest.cpp.o[0m
+[1.347s] [ 31%] [32m[1mLinking CXX static library libgtest_main.a[0m
+[1.367s] [ 31%] Built target gtest_main
+[2.908s] [ 37%] [32m[1mLinking CXX static library libgtest.a[0m
+[2.947s] [ 37%] Built target gtest
+[2.961s] [ 43%] [32mBuilding CXX object test/CMakeFiles/test_nominal_selftest.dir/nominal_selftest.cpp.o[0m
+[2.965s] [ 50%] [32mBuilding CXX object test/CMakeFiles/test_exception_selftest.dir/exception_selftest.cpp.o[0m
+[2.967s] [ 62%] [32mBuilding CXX object test/CMakeFiles/test_error_selftest.dir/error_selftest.cpp.o[0m
+[2.967s] [ 62%] [32mBuilding CXX object test/CMakeFiles/test_no_id_selftest.dir/no_id_selftest.cpp.o[0m
+[3.594s] [ 68%] [32m[1mLinking CXX executable run_selftest[0m
+[3.721s] [ 75%] [32m[1mLinking CXX executable selftest_example[0m
+[3.751s] [ 75%] Built target run_selftest
+[3.840s] [ 75%] Built target selftest_example
+[6.625s] [ 81%] [32m[1mLinking CXX executable test_nominal_selftest[0m
+[6.655s] [ 87%] [32m[1mLinking CXX executable test_exception_selftest[0m
+[6.778s] [ 93%] [32m[1mLinking CXX executable test_no_id_selftest[0m
+[6.806s] [ 93%] Built target test_nominal_selftest
+[6.832s] [100%] [32m[1mLinking CXX executable test_error_selftest[0m
+[6.837s] [100%] Built target test_exception_selftest
+[6.952s] [100%] Built target test_no_id_selftest
+[6.998s] [100%] Built target test_error_selftest
+[7.006s] Invoked command in '/home/user/ros2_ws/build/self_test' returned '0': CMAKE_PREFIX_PATH=/home/user/ros2_ws/install/diagnostic_updater:/home/user/ros2_ws/install/velodyne:/home/user/ros2_ws/install/velodyne_pointcloud:/home/user/ros2_ws/install/velodyne_driver:/home/user/ros2_ws/install/velodyne_msgs:/home/user/ros2_ws/install/velodyne_laserscan:/home/user/ros2_ws/install/diagnostics:/home/user/ros2_ws/install/self_test:/home/user/ros2_ws/install/diagnostic_common_diagnostics:/home/user/ros2_ws/install/diagnostic_aggregator:/home/user/ros2_ws/install/angles:/home/user/yolo/install/yolov8_bringup:/home/user/yolo/install/yolov8_msgs:/home/user/usb_cam/install/usb_camera_driver:/home/user/ros2_ws/install/sub:/home/user/ros2_ws/install/kitti2rosbag2:/home/user/yolo/install/yolov8_ros:/opt/ros/humble /usr/bin/cmake --build /home/user/ros2_ws/build/self_test -- -j32 -l32
+[7.027s] Invoking command in '/home/user/ros2_ws/build/self_test': CMAKE_PREFIX_PATH=/home/user/ros2_ws/install/diagnostic_updater:/home/user/ros2_ws/install/velodyne:/home/user/ros2_ws/install/velodyne_pointcloud:/home/user/ros2_ws/install/velodyne_driver:/home/user/ros2_ws/install/velodyne_msgs:/home/user/ros2_ws/install/velodyne_laserscan:/home/user/ros2_ws/install/diagnostics:/home/user/ros2_ws/install/self_test:/home/user/ros2_ws/install/diagnostic_common_diagnostics:/home/user/ros2_ws/install/diagnostic_aggregator:/home/user/ros2_ws/install/angles:/home/user/yolo/install/yolov8_bringup:/home/user/yolo/install/yolov8_msgs:/home/user/usb_cam/install/usb_camera_driver:/home/user/ros2_ws/install/sub:/home/user/ros2_ws/install/kitti2rosbag2:/home/user/yolo/install/yolov8_ros:/opt/ros/humble /usr/bin/cmake --install /home/user/ros2_ws/build/self_test
+[7.032s] -- Install configuration: ""
+[7.032s] -- Execute custom install script
+[7.033s] -- Symlinking: /home/user/ros2_ws/install/self_test/include/self_test/test_runner.hpp
+[7.037s] -- Symlinking: /home/user/ros2_ws/install/self_test/lib/self_test/run_selftest
+[7.042s] -- Symlinking: /home/user/ros2_ws/install/self_test/lib/self_test/selftest_example
+[7.047s] -- Symlinking: /home/user/ros2_ws/install/self_test/share/ament_index/resource_index/package_run_dependencies/self_test
+[7.052s] -- Symlinking: /home/user/ros2_ws/install/self_test/share/ament_index/resource_index/parent_prefix_path/self_test
+[7.057s] -- Symlinking: /home/user/ros2_ws/install/self_test/share/self_test/environment/ament_prefix_path.sh
+[7.061s] -- Symlinking: /home/user/ros2_ws/install/self_test/share/self_test/environment/ament_prefix_path.dsv
+[7.065s] -- Symlinking: /home/user/ros2_ws/install/self_test/share/self_test/environment/path.sh
+[7.070s] -- Symlinking: /home/user/ros2_ws/install/self_test/share/self_test/environment/path.dsv
+[7.074s] -- Symlinking: /home/user/ros2_ws/install/self_test/share/self_test/local_setup.bash
+[7.078s] -- Symlinking: /home/user/ros2_ws/install/self_test/share/self_test/local_setup.sh
+[7.082s] -- Symlinking: /home/user/ros2_ws/install/self_test/share/self_test/local_setup.zsh
+[7.087s] -- Symlinking: /home/user/ros2_ws/install/self_test/share/self_test/local_setup.dsv
+[7.091s] -- Symlinking: /home/user/ros2_ws/install/self_test/share/self_test/package.dsv
+[7.095s] -- Symlinking: /home/user/ros2_ws/install/self_test/share/ament_index/resource_index/packages/self_test
+[7.099s] -- Symlinking: /home/user/ros2_ws/install/self_test/share/self_test/cmake/ament_cmake_export_include_directories-extras.cmake
+[7.104s] -- Symlinking: /home/user/ros2_ws/install/self_test/share/self_test/cmake/self_testConfig.cmake
+[7.108s] -- Symlinking: /home/user/ros2_ws/install/self_test/share/self_test/cmake/self_testConfig-version.cmake
+[7.112s] -- Symlinking: /home/user/ros2_ws/install/self_test/share/self_test/package.xml
+[7.120s] Invoked command in '/home/user/ros2_ws/build/self_test' returned '0': CMAKE_PREFIX_PATH=/home/user/ros2_ws/install/diagnostic_updater:/home/user/ros2_ws/install/velodyne:/home/user/ros2_ws/install/velodyne_pointcloud:/home/user/ros2_ws/install/velodyne_driver:/home/user/ros2_ws/install/velodyne_msgs:/home/user/ros2_ws/install/velodyne_laserscan:/home/user/ros2_ws/install/diagnostics:/home/user/ros2_ws/install/self_test:/home/user/ros2_ws/install/diagnostic_common_diagnostics:/home/user/ros2_ws/install/diagnostic_aggregator:/home/user/ros2_ws/install/angles:/home/user/yolo/install/yolov8_bringup:/home/user/yolo/install/yolov8_msgs:/home/user/usb_cam/install/usb_camera_driver:/home/user/ros2_ws/install/sub:/home/user/ros2_ws/install/kitti2rosbag2:/home/user/yolo/install/yolov8_ros:/opt/ros/humble /usr/bin/cmake --install /home/user/ros2_ws/build/self_test

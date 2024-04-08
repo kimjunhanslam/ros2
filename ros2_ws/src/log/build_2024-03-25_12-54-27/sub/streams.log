@@ -1,0 +1,25 @@
+[0.409s] Invoking command in '/home/user/ros2_ws/src/build/sub': PYTHONPATH=/home/user/ros2_ws/src/build/sub/prefix_override:/home/user/ros2_ws/src/install/sub/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/user/ros2_ws/src/build/sub/build --no-deps symlink_data
+[0.582s] running develop
+[0.675s] running egg_info
+[0.675s] creating sub.egg-info
+[0.675s] writing sub.egg-info/PKG-INFO
+[0.675s] writing dependency_links to sub.egg-info/dependency_links.txt
+[0.675s] writing entry points to sub.egg-info/entry_points.txt
+[0.676s] writing requirements to sub.egg-info/requires.txt
+[0.676s] writing top-level names to sub.egg-info/top_level.txt
+[0.676s] writing manifest file 'sub.egg-info/SOURCES.txt'
+[0.676s] reading manifest file 'sub.egg-info/SOURCES.txt'
+[0.677s] writing manifest file 'sub.egg-info/SOURCES.txt'
+[0.678s] running build_ext
+[0.678s] Creating /home/user/ros2_ws/src/install/sub/lib/python3.10/site-packages/sub.egg-link (link to .)
+[0.678s] Installing cam script to /home/user/ros2_ws/src/install/sub/lib/sub
+[0.678s] Installing lidar script to /home/user/ros2_ws/src/install/sub/lib/sub
+[0.678s] 
+[0.678s] Installed /home/user/ros2_ws/src/build/sub
+[0.678s] running symlink_data
+[0.679s] creating /home/user/ros2_ws/src/install/sub/share/ament_index
+[0.679s] creating /home/user/ros2_ws/src/install/sub/share/ament_index/resource_index
+[0.679s] creating /home/user/ros2_ws/src/install/sub/share/ament_index/resource_index/packages
+[0.679s] symbolically linking /home/user/ros2_ws/src/build/sub/resource/sub -> /home/user/ros2_ws/src/install/sub/share/ament_index/resource_index/packages
+[0.679s] symbolically linking /home/user/ros2_ws/src/build/sub/package.xml -> /home/user/ros2_ws/src/install/sub/share/sub
+[0.696s] Invoked command in '/home/user/ros2_ws/src/build/sub' returned '0': PYTHONPATH=/home/user/ros2_ws/src/build/sub/prefix_override:/home/user/ros2_ws/src/install/sub/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/user/ros2_ws/src/build/sub/build --no-deps symlink_data

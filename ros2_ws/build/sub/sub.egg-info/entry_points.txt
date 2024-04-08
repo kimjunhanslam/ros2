@@ -1,0 +1,13 @@
+[console_scripts]
+PointCloudSubscriber = sub.PointCloudSubscriber:main
+cam = sub.cam:main
+camrviz = sub.camrviz:main
+imu = sub.imu:main
+lat = sub.lat:main
+lidar = sub.lidar:main
+lidar_clu = sub.lidar_clu:main
+lon = sub.lon:main
+pcd_sub = sub.pcd_sub:main
+utm = sub.utm:main
+webcam = sub.webcam:main
+

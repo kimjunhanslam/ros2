@@ -1,0 +1,49 @@
+running egg_info
+creating ../build/kitti2rosbag2/kitti2rosbag2.egg-info
+writing ../build/kitti2rosbag2/kitti2rosbag2.egg-info/PKG-INFO
+writing dependency_links to ../build/kitti2rosbag2/kitti2rosbag2.egg-info/dependency_links.txt
+writing entry points to ../build/kitti2rosbag2/kitti2rosbag2.egg-info/entry_points.txt
+writing requirements to ../build/kitti2rosbag2/kitti2rosbag2.egg-info/requires.txt
+writing top-level names to ../build/kitti2rosbag2/kitti2rosbag2.egg-info/top_level.txt
+writing manifest file '../build/kitti2rosbag2/kitti2rosbag2.egg-info/SOURCES.txt'
+reading manifest file '../build/kitti2rosbag2/kitti2rosbag2.egg-info/SOURCES.txt'
+adding license file 'LICENSE'
+writing manifest file '../build/kitti2rosbag2/kitti2rosbag2.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/user/ros2_ws/src/build/kitti2rosbag2/build
+creating /home/user/ros2_ws/src/build/kitti2rosbag2/build/lib
+creating /home/user/ros2_ws/src/build/kitti2rosbag2/build/lib/kitti2rosbag2
+copying kitti2rosbag2/__init__.py -> /home/user/ros2_ws/src/build/kitti2rosbag2/build/lib/kitti2rosbag2
+copying kitti2rosbag2/kitti_rec.py -> /home/user/ros2_ws/src/build/kitti2rosbag2/build/lib/kitti2rosbag2
+creating /home/user/ros2_ws/src/build/kitti2rosbag2/build/lib/kitti2rosbag2/utils
+copying kitti2rosbag2/utils/__init__.py -> /home/user/ros2_ws/src/build/kitti2rosbag2/build/lib/kitti2rosbag2/utils
+copying kitti2rosbag2/utils/kitti_utils.py -> /home/user/ros2_ws/src/build/kitti2rosbag2/build/lib/kitti2rosbag2/utils
+copying kitti2rosbag2/utils/quaternion.py -> /home/user/ros2_ws/src/build/kitti2rosbag2/build/lib/kitti2rosbag2/utils
+running install
+running install_lib
+creating /home/user/ros2_ws/src/install/kitti2rosbag2/lib/python3.10/site-packages/kitti2rosbag2
+copying /home/user/ros2_ws/src/build/kitti2rosbag2/build/lib/kitti2rosbag2/__init__.py -> /home/user/ros2_ws/src/install/kitti2rosbag2/lib/python3.10/site-packages/kitti2rosbag2
+copying /home/user/ros2_ws/src/build/kitti2rosbag2/build/lib/kitti2rosbag2/kitti_rec.py -> /home/user/ros2_ws/src/install/kitti2rosbag2/lib/python3.10/site-packages/kitti2rosbag2
+creating /home/user/ros2_ws/src/install/kitti2rosbag2/lib/python3.10/site-packages/kitti2rosbag2/utils
+copying /home/user/ros2_ws/src/build/kitti2rosbag2/build/lib/kitti2rosbag2/utils/__init__.py -> /home/user/ros2_ws/src/install/kitti2rosbag2/lib/python3.10/site-packages/kitti2rosbag2/utils
+copying /home/user/ros2_ws/src/build/kitti2rosbag2/build/lib/kitti2rosbag2/utils/kitti_utils.py -> /home/user/ros2_ws/src/install/kitti2rosbag2/lib/python3.10/site-packages/kitti2rosbag2/utils
+copying /home/user/ros2_ws/src/build/kitti2rosbag2/build/lib/kitti2rosbag2/utils/quaternion.py -> /home/user/ros2_ws/src/install/kitti2rosbag2/lib/python3.10/site-packages/kitti2rosbag2/utils
+byte-compiling /home/user/ros2_ws/src/install/kitti2rosbag2/lib/python3.10/site-packages/kitti2rosbag2/__init__.py to __init__.cpython-310.pyc
+byte-compiling /home/user/ros2_ws/src/install/kitti2rosbag2/lib/python3.10/site-packages/kitti2rosbag2/kitti_rec.py to kitti_rec.cpython-310.pyc
+byte-compiling /home/user/ros2_ws/src/install/kitti2rosbag2/lib/python3.10/site-packages/kitti2rosbag2/utils/__init__.py to __init__.cpython-310.pyc
+byte-compiling /home/user/ros2_ws/src/install/kitti2rosbag2/lib/python3.10/site-packages/kitti2rosbag2/utils/kitti_utils.py to kitti_utils.cpython-310.pyc
+byte-compiling /home/user/ros2_ws/src/install/kitti2rosbag2/lib/python3.10/site-packages/kitti2rosbag2/utils/quaternion.py to quaternion.cpython-310.pyc
+running install_data
+creating /home/user/ros2_ws/src/install/kitti2rosbag2/share/ament_index
+creating /home/user/ros2_ws/src/install/kitti2rosbag2/share/ament_index/resource_index
+creating /home/user/ros2_ws/src/install/kitti2rosbag2/share/ament_index/resource_index/packages
+copying resource/kitti2rosbag2 -> /home/user/ros2_ws/src/install/kitti2rosbag2/share/ament_index/resource_index/packages
+copying package.xml -> /home/user/ros2_ws/src/install/kitti2rosbag2/share/kitti2rosbag2
+copying launch/kitti2rosbag2.launch.py -> /home/user/ros2_ws/src/install/kitti2rosbag2/share/kitti2rosbag2
+copying config/params.yaml -> /home/user/ros2_ws/src/install/kitti2rosbag2/share/kitti2rosbag2
+running install_egg_info
+Copying ../build/kitti2rosbag2/kitti2rosbag2.egg-info to /home/user/ros2_ws/src/install/kitti2rosbag2/lib/python3.10/site-packages/kitti2rosbag2-1.0.0-py3.10.egg-info
+running install_scripts
+Installing kitti_rec_node script to /home/user/ros2_ws/src/install/kitti2rosbag2/lib/kitti2rosbag2
+writing list of installed files to '/home/user/ros2_ws/src/build/kitti2rosbag2/install.log'
